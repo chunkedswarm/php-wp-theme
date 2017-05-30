@@ -9,9 +9,9 @@
     <meta content="StriveCDN is a leading P2P-based Live-Streaming provider. Based on ChunkedSwarm, the leading P2P distribution technology, StriveCDN sets new standards for OTT and Live Event Streaming!" property="og:description">
     <meta content="summary" name="twitter:card">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link href="css/normalize.css" rel="stylesheet" type="text/css">
-    <link href="css/webflow.css" rel="stylesheet" type="text/css">
-    <link href="css/strivecdn.webflow.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo get_bloginfo('template_directory'); ?>/css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo get_bloginfo('template_directory'); ?>/css/webflow.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo get_bloginfo('template_directory'); ?>/css/strivecdn.webflow.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
     <script type="text/javascript">
         WebFont.load({
@@ -20,9 +20,9 @@
             }
         });
     </script>
-    <script src="js/modernizr.js" type="text/javascript"></script>
-    <link href="images/Strive_Logo_Favicon.png" rel="shortcut icon" type="image/x-icon">
-    <link href="images/Strive_Logo_Webclip.png" rel="apple-touch-icon">
+    <script src="<?php echo get_bloginfo('template_directory'); ?>/js/modernizr.js" type="text/javascript"></script>
+    <link href="<?php echo get_bloginfo('template_directory'); ?>/images/Strive_Logo_Favicon.png" rel="shortcut icon" type="image/x-icon">
+    <link href="<?php echo get_bloginfo('template_directory'); ?>/images/Strive_Logo_Webclip.png" rel="apple-touch-icon">
     <script type="text/javascript">
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
