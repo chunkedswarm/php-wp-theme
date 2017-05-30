@@ -15,7 +15,7 @@
             </div>
             <div class="w-col w-col-4">
                 <div class="highlight index-product-column">
-                    <div class="index-product-column-icon-wrapper"><img class="index-product-column-icon" src="images/half_price.png">
+                    <div class="index-product-column-icon-wrapper"><img class="index-product-column-icon" src="<?php echo get_bloginfo('template_directory'); ?>/images/half_price.png">
                     </div>
                     <div class="index-product-column-text-wrapper">
                         <h4 class="center">Für bis zu <span class="text-span-2">95%</span> des Traffics zahlen Sie nur die Hälfte!</h4>
@@ -25,7 +25,7 @@
             </div>
             <div class="w-col w-col-4">
                 <div class="index-product-column">
-                    <div class="index-product-column-icon-wrapper"><img class="index-product-column-icon" src="images/security.png">
+                    <div class="index-product-column-icon-wrapper"><img class="index-product-column-icon" src="<?php echo get_bloginfo('template_directory'); ?>/images/security.png">
                     </div>
                     <div class="index-product-column-text-wrapper">
                         <h4 class="center">Sicher, zuverlässig &amp;<br><span class="text-span-6">weltweit</span> einzigartig!</h4>
@@ -51,7 +51,7 @@
         <div class="w-row">
             <div class="w-col w-col-4">
                 <div class="index-explain-col">
-                    <div class="index-explain-icon-wrapper"><img src="images/number_1.png">
+                    <div class="index-explain-icon-wrapper"><img src="<?php echo get_bloginfo('template_directory'); ?>/images/number_1.png">
                     </div>
                     <h4 class="center how-it-works">Bereitstellen</h4>
                     <ul class="unordered-list w-list-unstyled">
@@ -63,7 +63,7 @@
             </div>
             <div class="w-col w-col-4">
                 <div class="index-explain-col">
-                    <div class="index-explain-icon-wrapper"><img src="images/number_2.png">
+                    <div class="index-explain-icon-wrapper"><img src="<?php echo get_bloginfo('template_directory'); ?>/images/number_2.png">
                     </div>
                     <h4 class="center how-it-works">Verteilen</h4>
                     <ul class="unordered-list w-list-unstyled">
@@ -75,7 +75,7 @@
             </div>
             <div class="w-col w-col-4">
                 <div class="index-explain-col">
-                    <div class="index-explain-icon-wrapper"><img src="images/number_3.png">
+                    <div class="index-explain-icon-wrapper"><img src="<?php echo get_bloginfo('template_directory'); ?>/images/number_3.png">
                     </div>
                     <h4 class="center how-it-works">Optimieren</h4>
                     <ul class="unordered-list w-list-unstyled">
@@ -93,7 +93,7 @@
         <h1 class="headline">Wer sollte <span class="text-span-7">StriveCDN</span> nutzen?</h1>
         <h3 class="index-customers-subline">Finden Sie heraus, ob wir das richtige Content Delivery Network für Sie sind!</h3>
         <div class="flex-row index-customers-row">
-            <div class="center-column flex-column"><img src="images/animat-rocket-color.gif">
+            <div class="center-column flex-column"><img src="<?php echo get_bloginfo('template_directory'); ?>/images/animat-rocket-color.gif">
             </div>
             <div class="flex-column">
                 <h4 class="heading-5">StriveCDN transkodiert und verteilt Ihre Daten in Windeseile!</h4>
@@ -107,7 +107,7 @@
             </div>
         </div>
         <div class="flex-row index-customers-row reverse">
-            <div class="center-column flex-column"><img src="images/animat-video-color.gif">
+            <div class="center-column flex-column"><img src="<?php echo get_bloginfo('template_directory'); ?>/images/animat-video-color.gif">
             </div>
             <div class="flex-column">
                 <h4 class="heading-5">Sie wollen ein Live-Event streamen?</h4>
@@ -121,7 +121,7 @@
             </div>
         </div>
         <div class="flex-row index-customers-row">
-            <div class="center-column flex-column"><img src="images/animat-lightbulb-color.gif">
+            <div class="center-column flex-column"><img src="<?php echo get_bloginfo('template_directory'); ?>/images/animat-lightbulb-color.gif">
             </div>
             <div class="flex-column">
                 <h4 class="heading-5">Sie haben bereits einen anderen Live-Streaming Anbieter und wollen dennoch von StriveCDN profitieren?</h4>
@@ -145,11 +145,11 @@
             <br>
             <br>StriveCDN arbeitet mit hochsicheren Verschlüsselungstechniken und kommuniziert stets nur über zertifizierte HTTPS&nbsp;Verbindungen. Live-Stream Daten, welche zwischen Zuschauern ausgetauscht werden, sind auf Online-Banking Niveau End-to-End verschlüsselt und können nicht von Dritten gelesen oder mitgeschnitten werden. Wir lösen somit als einer der ersten Peer-Assisted CDN Anbieter das Stream-Hijacking Problem.&nbsp;Bei uns kommen Ihre Live-Streams garantiert unverändert zu all Ihren Zuschauern!</div>
         <div class="row technologies">
-            <a class="index-product-tech-col w-inline-block" href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img src="images/HTML5_Logo_512.png">
+            <a class="index-product-tech-col w-inline-block" href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img src="<?php echo get_bloginfo('template_directory'); ?>/images/HTML5_Logo_512.png">
             </a>
-            <a class="index-product-tech-col w-inline-block" href="https://webrtc.org/" target="_blank"><img src="images/webrtc-logo-vert-retro-255x305.png">
+            <a class="index-product-tech-col w-inline-block" href="https://webrtc.org/" target="_blank"><img src="<?php echo get_bloginfo('template_directory'); ?>/images/webrtc-logo-vert-retro-255x305.png">
             </a>
-            <a class="index-product-tech-col w-inline-block" href="https://goo.gl/maps/fhvMrEedPiz" target="_blank"><img src="images/made_in_germany.png">
+            <a class="index-product-tech-col w-inline-block" href="https://goo.gl/maps/fhvMrEedPiz" target="_blank"><img src="<?php echo get_bloginfo('template_directory'); ?>/images/made_in_germany.png">
             </a>
         </div>
     </div>
