@@ -80,7 +80,7 @@
             </div>
         </div>
         <div class="no-mobile topbar-col">
-            <div class="div-block"><img class="optin-login-icon" height="16" src="images/ligature-symbols_2-11-0_login_257_0_001b4b_none.png" width="16"><a href="https://app.strivecdn.com/#/signin" target="_blank">Jetzt einloggen</a>
+            <div class="div-block"><img class="optin-login-icon" height="16" src="<?php echo get_bloginfo('template_directory'); ?>/images/ligature-symbols_2-11-0_login_257_0_001b4b_none.png" width="16"><a href="https://app.strivecdn.com/#/signin" target="_blank">Jetzt einloggen</a>
             </div>
         </div>
         <div class="lang-selector">
@@ -97,36 +97,12 @@
 </div>
 <div class="index-navbar w-nav" data-animation="default" data-collapse="medium" data-duration="400">
     <div class="navbar w-container">
-        <a class="brand w-nav-brand" href="index.html"><img class="index-navbar-brand-img" sizes="(max-width: 479px) 85vw, 249.3125px" src="images/Strive_Logo_v3.png" srcset="images/Strive_Logo_v3-p-500.png 500w, images/Strive_Logo_v3-p-800.png 800w, images/Strive_Logo_v3-p-1080.png 1080w, images/Strive_Logo_v3-p-1600.png 1600w, images/Strive_Logo_v3-p-2000.png 2000w, images/Strive_Logo_v3-p-2600.png 2600w, images/Strive_Logo_v3-p-3200.png 3200w, images/Strive_Logo_v3.png 4787w">
+        <a class="brand w-nav-brand" href="index.html"><img class="index-navbar-brand-img" sizes="(max-width: 479px) 85vw, 249.3125px" src="<?php echo get_bloginfo('template_directory'); ?>/images/Strive_Logo_v3.png" srcset="images/Strive_Logo_v3-p-500.png 500w, images/Strive_Logo_v3-p-800.png 800w, images/Strive_Logo_v3-p-1080.png 1080w, images/Strive_Logo_v3-p-1600.png 1600w, images/Strive_Logo_v3-p-2000.png 2000w, images/Strive_Logo_v3-p-2600.png 2600w, images/Strive_Logo_v3-p-3200.png 3200w, images/Strive_Logo_v3.png 4787w">
         </a>
         <nav class="navbar-mobile w-nav-menu" role="navigation"><a class="index-navbar-link index-navbar-link-text w-nav-link" href="features.html">Produkte</a><a class="index-navbar-link index-navbar-link-text w-nav-link" href="demo.html">Preise</a><a class="index-navbar-link index-navbar-link-text w-nav-link" href="features.html">Features</a><a class="index-navbar-link index-navbar-link-text w-nav-link" href="preise.html">Partner</a><a class="index-navbar-link index-navbar-link-text w-nav-link" href="about.html">Über uns</a><a class="index-navbar-link index-navbar-link-text invisible w-nav-link" href="#">Blog</a>
         </nav>
         <div class="menu-button w-nav-button">
             <div class="w-icon-nav-menu"></div>
-        </div>
-    </div>
-</div>
-<div class="bgcolor-dark-blue index-hero">
-    <div class="index-hero-optin-wrapper">
-        <div class="div-block-2">
-            <h1 class="color-light-grey color-white index-hero-headline">Mit <span class="text-span">StriveCDN</span> können Sie bis zu <span class="text-span-5">95%</span> Ihres Live-Streams zum halben Preis ausliefern!</h1>
-            <div class="index-hero-optin-headline-wrapper"><img height="32" src="images/font-awesome_4-7-0_arrow-circle-down_260_0_08b624_none.png" width="32">
-                <div class="color-white index-hero-optin-headline-text">Jetzt kostenlos testen!</div>
-            </div>
-            <div class="index-hero-optin-form-wrapper w-form">
-                <form action="https://app.strivecdn.com/#/signup" class="index-hero-optin-form" data-name="Email Form" id="email-form" method="get" name="email-form">
-                    <input autofocus="autofocus" class="optin-textfield w-input" data-name="email" id="hero-input-email" maxlength="256" name="email" placeholder="Emailadresse" required="required" type="email">
-                    <input class="button w-button" data-wait="Bitte warten..." type="submit" value="Jetzt registrieren!">
-                </form>
-                <div class="w-form-done">
-                    <div>Thank you! Your submission has been received!</div>
-                </div>
-                <div class="w-form-fail">
-                    <div>Oops! Something went wrong while submitting the form</div>
-                </div>
-            </div>
-        </div>
-        <div class="index-hero-gif-wrapper"><img class="image-5" sizes="(max-width: 479px) 96vw, (max-width: 991px) 100vw, 2094.53125px" src="images/abstract_app_1.png" srcset="images/abstract_app_1-p-500.png 500w, images/abstract_app_1-p-800.png 800w, images/abstract_app_1-p-1080.png 1080w, images/abstract_app_1.png 1440w">
         </div>
     </div>
 </div>

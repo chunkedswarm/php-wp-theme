@@ -1,11 +1,46 @@
 <?php get_header(); ?>
+<div class="bgcolor-dark-blue index-hero">
+    <div class="index-hero-optin-wrapper">
+        <div class="div-block-2">
+            <h1 class="color-light-grey color-white index-hero-headline">Mit <span
+                        class="text-span">StriveCDN</span> können Sie bis zu <span class="text-span-5">95%</span>
+                Ihres Live-Streams zum halben Preis ausliefern!</h1>
+            <div class="index-hero-optin-headline-wrapper"><img height="32"
+                                                                src="images/font-awesome_4-7-0_arrow-circle-down_260_0_08b624_none.png"
+                                                                width="32">
+                <div class="color-white index-hero-optin-headline-text">Jetzt kostenlos testen!</div>
+            </div>
+            <div class="index-hero-optin-form-wrapper w-form">
+                <form action="https://app.strivecdn.com/#/signup" class="index-hero-optin-form"
+                      data-name="Email Form" id="email-form" method="get" name="email-form">
+                    <input autofocus="autofocus" class="optin-textfield w-input" data-name="email"
+                           id="hero-input-email" maxlength="256" name="email" placeholder="Emailadresse"
+                           required="required" type="email">
+                    <input class="button w-button" data-wait="Bitte warten..." type="submit"
+                           value="Jetzt registrieren!">
+                </form>
+                <div class="w-form-done">
+                    <div>Thank you! Your submission has been received!</div>
+                </div>
+                <div class="w-form-fail">
+                    <div>Oops! Something went wrong while submitting the form</div>
+                </div>
+            </div>
+        </div>
+        <div class="index-hero-gif-wrapper"><img class="image-5"
+                                                 sizes="(max-width: 479px) 96vw, (max-width: 991px) 100vw, 2094.53125px"
+                                                 src="images/abstract_app_1.png"
+                                                 srcset="images/abstract_app_1-p-500.png 500w, images/abstract_app_1-p-800.png 800w, images/abstract_app_1-p-1080.png 1080w, images/abstract_app_1.png 1440w">
+        </div>
+    </div>
+</div>
 <div class="index-product">
     <div class="container w-container">
         <h1 class="index-product-headline">Ihre Vorteile mit <span class="text-span-4">StriveCDN</span></h1>
         <div class="row w-row">
             <div class="w-col w-col-4">
                 <div class="index-product-column">
-                    <div class="index-product-column-icon-wrapper"><img class="index-product-column-icon" src="images/ontime.png">
+                    <div class="index-product-column-icon-wrapper"><img class="index-product-column-icon" src="<?php echo get_bloginfo('template_directory'); ?>/images/ontime.png">
                     </div>
                     <div class="index-product-column-text-wrapper">
                         <h4 class="center">Ultraschnelles <span class="text-span-3">HD &amp; 4K</span><br>Live-Streaming</h4>
