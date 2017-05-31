@@ -101,7 +101,7 @@ $template_root = get_bloginfo('template_directory');
 </div>
 <div class="index-navbar w-nav" data-animation="default" data-collapse="medium" data-duration="400">
     <div class="navbar w-container">
-        <a class="brand w-nav-brand" href="index.html"><img class="index-navbar-brand-img" sizes="(max-width: 479px) 85vw, 249.3125px" src="<?php echo $template_root;?>/images/Strive_Logo_v3.png" srcset="images/Strive_Logo_v3-p-500.png 500w, images/Strive_Logo_v3-p-800.png 800w, images/Strive_Logo_v3-p-1080.png 1080w, images/Strive_Logo_v3-p-1600.png 1600w, images/Strive_Logo_v3-p-2000.png 2000w, images/Strive_Logo_v3-p-2600.png 2600w, images/Strive_Logo_v3-p-3200.png 3200w, images/Strive_Logo_v3.png 4787w">
+        <a class="brand w-nav-brand" href="index.html"><img class="index-navbar-brand-img" src="<?php echo $template_root;?>/images/Strive_Logo_v3.png">
         </a>
         <nav class="navbar-mobile w-nav-menu" role="navigation"><a class="index-navbar-link index-navbar-link-text w-nav-link" href="features.html">Produkte</a><a class="index-navbar-link index-navbar-link-text w-nav-link" href="demo.html">Preise</a><a class="index-navbar-link index-navbar-link-text w-nav-link" href="features.html">Features</a><a class="index-navbar-link index-navbar-link-text w-nav-link" href="preise.html">Partner</a><a class="index-navbar-link index-navbar-link-text w-nav-link" href="about.html">Über uns</a><a class="index-navbar-link index-navbar-link-text invisible w-nav-link" href="#">Blog</a>
         </nav>
