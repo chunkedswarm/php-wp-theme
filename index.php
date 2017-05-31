@@ -1,4 +1,10 @@
-<?php get_header(); ?>
+<?php
+get_header();
+
+// Store theme directory
+$template_directory = get_template_directory_uri();
+
+?>
 <div class="bgcolor-dark-blue index-hero">
     <div class="index-hero-optin-wrapper">
         <div class="div-block-2">
@@ -6,7 +12,7 @@
                         class="text-span">StriveCDN</span> können Sie bis zu <span class="text-span-5">95%</span>
                 Ihres Live-Streams zum halben Preis ausliefern!</h1>
             <div class="index-hero-optin-headline-wrapper"><img height="32"
-                                                                src="<?php echo get_bloginfo('template_directory'); ?>/images/font-awesome_4-7-0_arrow-circle-down_260_0_08b624_none.png"
+                                                                src="<?=$template_directory?>/images/font-awesome_4-7-0_arrow-circle-down_260_0_08b624_none.png"
                                                                 width="32">
                 <div class="color-white index-hero-optin-headline-text">Jetzt kostenlos testen!</div>
             </div>
