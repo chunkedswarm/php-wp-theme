@@ -76,37 +76,3 @@ $template_root = get_bloginfo('template_directory');
     <?php wp_head();?>
 </head>
 <body class="body">
-<div class="top-bar">
-    <div class="top-bar-wrapper">
-        <div class="no-mobile topbar-col">
-            <div class="topbar-register-wrapper">
-                <div class="top-bar-text">Noch kein Konto?</div><a class="button small top-bar-button w-button" href="https://app.strivecdn.com/#/signup" target="_blank">Registrieren</a>
-            </div>
-        </div>
-        <div class="no-mobile topbar-col">
-            <div class="div-block"><img class="optin-login-icon" height="16" src="<?php echo $template_root;?>/images/ligature-symbols_2-11-0_login_257_0_001b4b_none.png" width="16"><a href="https://app.strivecdn.com/#/signin" target="_blank">Jetzt einloggen</a>
-            </div>
-        </div>
-        <div class="lang-selector">
-            <div class="w-dropdown" data-delay="0">
-                <div class="dropdown-toggle w-dropdown-toggle">
-                    <div class="text-block">Deutsch</div>
-                    <div class="w-icon-dropdown-toggle"></div>
-                </div>
-                <nav class="dropdown-list w-dropdown-list"><a class="top-bar-dropdown-item w-dropdown-link" href="#">Deutsch</a><a class="top-bar-dropdown-item w-dropdown-link" id="menu-english">English</a>
-                </nav>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="index-navbar w-nav" data-animation="default" data-collapse="medium" data-duration="400">
-    <div class="navbar w-container">
-        <a class="brand w-nav-brand" href="index.html"><img class="index-navbar-brand-img" src="<?php echo $template_root;?>/images/Strive_Logo_v3.png">
-        </a>
-        <nav class="navbar-mobile w-nav-menu" role="navigation"><a class="index-navbar-link index-navbar-link-text w-nav-link" href="features.html">Produkte</a><a class="index-navbar-link index-navbar-link-text w-nav-link" href="demo.html">Preise</a><a class="index-navbar-link index-navbar-link-text w-nav-link" href="features.html">Features</a><a class="index-navbar-link index-navbar-link-text w-nav-link" href="preise.html">Partner</a><a class="index-navbar-link index-navbar-link-text w-nav-link" href="about.html">Über uns</a><a class="index-navbar-link index-navbar-link-text invisible w-nav-link" href="#">Blog</a>
-        </nav>
-        <div class="menu-button w-nav-button">
-            <div class="w-icon-nav-menu"></div>
-        </div>
-    </div>
-</div>
