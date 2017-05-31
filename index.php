@@ -35,18 +35,19 @@ $template_directory = get_template_directory_uri();
         </div>
         <div class="index-hero-gif-wrapper"><img class="image-5"
                                                  sizes="(max-width: 479px) 96vw, (max-width: 991px) 100vw, 2094.53125px"
-                                                 src="<?php echo get_template_directory_uri(); ?>/images/abstract_app_1.png">
+                                                 src="<?=$template_directory?>/images/abstract_app_1.png">
                                                  <!--srcset="images/abstract_app_1-p-500.png 500w, images/abstract_app_1-p-800.png 800w, images/abstract_app_1-p-1080.png 1080w, images/abstract_app_1.png 1440w"> -->
         </div>
     </div>
 </div>
 <div class="index-product">
     <div class="container w-container">
+        <?php the_content(); ?>
         <h1 class="index-product-headline">Ihre Vorteile mit <span class="text-span-4">StriveCDN</span></h1>
         <div class="row w-row">
             <div class="w-col w-col-4">
                 <div class="index-product-column">
-                    <div class="index-product-column-icon-wrapper"><img class="index-product-column-icon" src="<?php echo get_bloginfo('template_directory'); ?>/images/ontime.png">
+                    <div class="index-product-column-icon-wrapper"><img class="index-product-column-icon" src="<?=$template_directory?>/images/ontime.png">
                     </div>
                     <div class="index-product-column-text-wrapper">
                         <h4 class="center">Ultraschnelles <span class="text-span-3">HD &amp; 4K</span><br>Live-Streaming</h4>
@@ -56,7 +57,7 @@ $template_directory = get_template_directory_uri();
             </div>
             <div class="w-col w-col-4">
                 <div class="highlight index-product-column">
-                    <div class="index-product-column-icon-wrapper"><img class="index-product-column-icon" src="<?php echo get_bloginfo('template_directory'); ?>/images/half_price.png">
+                    <div class="index-product-column-icon-wrapper"><img class="index-product-column-icon" src="<?=$template_directory?>/images/half_price.png">
                     </div>
                     <div class="index-product-column-text-wrapper">
                         <h4 class="center">Für bis zu <span class="text-span-2">95%</span> des Traffics zahlen Sie nur die Hälfte!</h4>
@@ -66,7 +67,7 @@ $template_directory = get_template_directory_uri();
             </div>
             <div class="w-col w-col-4">
                 <div class="index-product-column">
-                    <div class="index-product-column-icon-wrapper"><img class="index-product-column-icon" src="<?php echo get_bloginfo('template_directory'); ?>/images/security.png">
+                    <div class="index-product-column-icon-wrapper"><img class="index-product-column-icon" src="<?=$template_directory?>/images/security.png">
                     </div>
                     <div class="index-product-column-text-wrapper">
                         <h4 class="center">Sicher, zuverlässig &amp;<br><span class="text-span-6">weltweit</span> einzigartig!</h4>
@@ -87,12 +88,12 @@ $template_directory = get_template_directory_uri();
 <div class="index-explain">
     <div class="container w-container">
         <h1 class="heading-2 how-it-works">So funktioniert <span class="text-span-8">StriveCDN</span></h1>
-        <div class="center function"><img class="image-2" sizes="(max-width: 479px) 100vw, (max-width: 767px) 97vw, 700px" src="images/how_it_works.png" srcset="images/how_it_works-p-800x272.png 800w, images/how_it_works-p-1080x368.png 1080w, images/how_it_works.png 1600w" width="700">
+        <div class="center function"><img class="image-2" src="<?=$template_directory?>/images/how_it_works.png" width="700">
         </div>
         <div class="w-row">
             <div class="w-col w-col-4">
                 <div class="index-explain-col">
-                    <div class="index-explain-icon-wrapper"><img src="<?php echo get_bloginfo('template_directory'); ?>/images/number_1.png">
+                    <div class="index-explain-icon-wrapper"><img src="<?=$template_directory?>/images/number_1.png">
                     </div>
                     <h4 class="center how-it-works">Bereitstellen</h4>
                     <ul class="unordered-list w-list-unstyled">
