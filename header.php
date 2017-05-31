@@ -1,3 +1,7 @@
+<?php
+$template_root = get_bloginfo('template_directory');
+?>
+
 <!DOCTYPE html>
 <!--  Last Published: Tue May 30 2017 21:52:42 GMT+0000 (UTC)  -->
 <html data-wf-page="58bf15c4383ef761786b5b37" data-wf-site="58bf15c4383ef761786b5b36" lang="de">
@@ -9,9 +13,9 @@
     <meta content="StriveCDN is a leading P2P-based Live-Streaming provider. Based on ChunkedSwarm, the leading P2P distribution technology, StriveCDN sets new standards for OTT and Live Event Streaming!" property="og:description">
     <meta content="summary" name="twitter:card">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link href="<?php echo get_bloginfo('template_directory'); ?>/css/normalize.css" rel="stylesheet" type="text/css">
-    <link href="<?php echo get_bloginfo('template_directory'); ?>/css/webflow.css" rel="stylesheet" type="text/css">
-    <link href="<?php echo get_bloginfo('template_directory'); ?>/css/strivecdn.webflow.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo $template_root;?>/css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo $template_root;?>/css/webflow.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo $template_root;?>/css/strivecdn.webflow.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
     <script type="text/javascript">
         WebFont.load({
@@ -20,9 +24,9 @@
             }
         });
     </script>
-    <script src="<?php echo get_bloginfo('template_directory'); ?>/js/modernizr.js" type="text/javascript"></script>
-    <link href="<?php echo get_bloginfo('template_directory'); ?>/images/Strive_Logo_Favicon.png" rel="shortcut icon" type="image/x-icon">
-    <link href="<?php echo get_bloginfo('template_directory'); ?>/images/Strive_Logo_Webclip.png" rel="apple-touch-icon">
+    <script src="<?php echo $template_root;?>/js/modernizr.js" type="text/javascript"></script>
+    <link href="<?php echo $template_root;?>/images/Strive_Logo_Favicon.png" rel="shortcut icon" type="image/x-icon">
+    <link href="<?php echo $template_root;?>/images/Strive_Logo_Webclip.png" rel="apple-touch-icon">
     <script type="text/javascript">
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -80,7 +84,7 @@
             </div>
         </div>
         <div class="no-mobile topbar-col">
-            <div class="div-block"><img class="optin-login-icon" height="16" src="<?php echo get_bloginfo('template_directory'); ?>/images/ligature-symbols_2-11-0_login_257_0_001b4b_none.png" width="16"><a href="https://app.strivecdn.com/#/signin" target="_blank">Jetzt einloggen</a>
+            <div class="div-block"><img class="optin-login-icon" height="16" src="<?php echo $template_root;?>/images/ligature-symbols_2-11-0_login_257_0_001b4b_none.png" width="16"><a href="https://app.strivecdn.com/#/signin" target="_blank">Jetzt einloggen</a>
             </div>
         </div>
         <div class="lang-selector">
@@ -97,7 +101,7 @@
 </div>
 <div class="index-navbar w-nav" data-animation="default" data-collapse="medium" data-duration="400">
     <div class="navbar w-container">
-        <a class="brand w-nav-brand" href="index.html"><img class="index-navbar-brand-img" sizes="(max-width: 479px) 85vw, 249.3125px" src="<?php echo get_bloginfo('template_directory'); ?>/images/Strive_Logo_v3.png" srcset="images/Strive_Logo_v3-p-500.png 500w, images/Strive_Logo_v3-p-800.png 800w, images/Strive_Logo_v3-p-1080.png 1080w, images/Strive_Logo_v3-p-1600.png 1600w, images/Strive_Logo_v3-p-2000.png 2000w, images/Strive_Logo_v3-p-2600.png 2600w, images/Strive_Logo_v3-p-3200.png 3200w, images/Strive_Logo_v3.png 4787w">
+        <a class="brand w-nav-brand" href="index.html"><img class="index-navbar-brand-img" sizes="(max-width: 479px) 85vw, 249.3125px" src="<?php echo $template_root;?>/images/Strive_Logo_v3.png" srcset="images/Strive_Logo_v3-p-500.png 500w, images/Strive_Logo_v3-p-800.png 800w, images/Strive_Logo_v3-p-1080.png 1080w, images/Strive_Logo_v3-p-1600.png 1600w, images/Strive_Logo_v3-p-2000.png 2000w, images/Strive_Logo_v3-p-2600.png 2600w, images/Strive_Logo_v3-p-3200.png 3200w, images/Strive_Logo_v3.png 4787w">
         </a>
         <nav class="navbar-mobile w-nav-menu" role="navigation"><a class="index-navbar-link index-navbar-link-text w-nav-link" href="features.html">Produkte</a><a class="index-navbar-link index-navbar-link-text w-nav-link" href="demo.html">Preise</a><a class="index-navbar-link index-navbar-link-text w-nav-link" href="features.html">Features</a><a class="index-navbar-link index-navbar-link-text w-nav-link" href="preise.html">Partner</a><a class="index-navbar-link index-navbar-link-text w-nav-link" href="about.html">Über uns</a><a class="index-navbar-link index-navbar-link-text invisible w-nav-link" href="#">Blog</a>
         </nav>
