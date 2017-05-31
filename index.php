@@ -29,7 +29,7 @@
         </div>
         <div class="index-hero-gif-wrapper"><img class="image-5"
                                                  sizes="(max-width: 479px) 96vw, (max-width: 991px) 100vw, 2094.53125px"
-                                                 src="<?php echo get_template_directory(); ?>/images/abstract_app_1.png">
+                                                 src="<?php echo get_theme_root(); ?>/images/abstract_app_1.png">
                                                  <!--srcset="images/abstract_app_1-p-500.png 500w, images/abstract_app_1-p-800.png 800w, images/abstract_app_1-p-1080.png 1080w, images/abstract_app_1.png 1440w"> -->
         </div>
     </div>
