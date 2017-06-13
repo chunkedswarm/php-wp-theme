@@ -37,19 +37,13 @@ $template_root = get_template_directory_uri();
                     <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
                     <style type="text/css">
                         #mc_embed_signup{background-color:transparent; clear:left; }
-                        .button {
-                            min-width: 10em;
-                            padding: 0px 1em;
-                            border-radius: 2px;
-                            background-color: #08b624;
-                            color: #fff;
-                            font-size: 1em;
-                            line-height: 2.5em;
-                            text-align: center;
-                        }
                         /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
                            We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
                     </style>
+                    <link href="<?php echo $template_root;?>/css/webflow/normalize.css" rel="stylesheet" type="text/css">
+                    <link href="<?php echo $template_root;?>/css/webflow/webflow.css" rel="stylesheet" type="text/css">
+                    <link href="<?php echo $template_root;?>/css/webflow/wp-strivecdn.webflow.css" rel="stylesheet" type="text/css">
+                    <link href="<?php echo $template_root;?>/css/custom_css.css" rel="stylesheet" type="text/css">
                     <div id="mc_embed_signup">
                         <form action="//strivecdn.us15.list-manage.com/subscribe/post?u=02ed6a6e43772f62f20d35008&amp;id=a9f47a9457" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                             <div id="mc_embed_signup_scroll">
