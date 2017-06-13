@@ -1,6 +1,108 @@
 <?php
-$template_root = get_bloginfo('template_directory');
+$template_root = get_template_directory_uri();
 ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<!--  Last Published: Tue Jun 13 2017 12:02:09 GMT+0000 (UTC)  -->
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <title>%%% TITLE %%%</title>
+    <link href="<?php echo $template_root;?>/css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo $template_root;?>/css/webflow.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo $template_root;?>/css/wp-strivecdn.webflow.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+    <script type="text/javascript">
+        WebFont.load({
+            google: {
+                families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Ubuntu:300,300italic,400,400italic,500,500italic,700,700italic"]
+            }
+        });
+    </script>
+    <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+    <script type="text/javascript">
+        !function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);
+    </script>
+    <link href="<?php echo $template_root;?>/images/Strive_Logo_Favicon.png" rel="shortcut icon" type="image/x-icon">
+    <link href="<?php echo $template_root;?>/images/Strive_Logo_Webclip.png" rel="apple-touch-icon">
+    <?php wp_head(); ?>
+</head>
+
+<body class="body">
+<div class="top-bar">
+    <div class="top-bar-row">
+        <div class="topbar-register-wrapper">
+            <div class="top-bar-text">Noch kein Konto?</div><a class="button button-small w-button" href="https://app.strivecdn.com/#/signup" target="_blank">Registrieren</a>
+        </div><a class="bg-light-blue button button-small w-button" href="#">Login</a>
+        <div class="lang-selector">
+            <div class="w-dropdown" data-delay="0">
+                <div class="dropdown-toggle w-dropdown-toggle">
+                    <div class="text-block">Deutsch</div>
+                    <div class="w-icon-dropdown-toggle"></div>
+                </div>
+                <nav class="dropdown-list w-dropdown-list"><a class="top-bar-dropdown-item w-dropdown-link" href="#">Deutsch</a><a class="top-bar-dropdown-item w-dropdown-link" id="menu-english">English</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--
+
+        %%% NAVBAR %%% ANPASSEN %%%
+
+-->
+<div class="index-navbar w-nav" data-animation="default" data-collapse="medium" data-duration="400">
+    <div class="navbar w-container">
+        <a class="brand w-nav-brand" href="../index.html"><img class="index-navbar-brand-img" sizes="(max-width: 479px) 85vw, 249.3125px" src="../images/Strive_Logo_v3.png" srcset="../images/Strive_Logo_v3-p-500.png 500w, ../images/Strive_Logo_v3-p-800.png 800w, ../images/Strive_Logo_v3-p-1080.png 1080w, ../images/Strive_Logo_v3-p-1600.png 1600w, ../images/Strive_Logo_v3-p-2000.png 2000w, ../images/Strive_Logo_v3-p-2600.png 2600w, ../images/Strive_Logo_v3-p-3200.png 3200w, ../images/Strive_Logo_v3.png 4787w">
+        </a>
+        <nav class="navbar-mobile w-nav-menu" role="navigation"><a class="index-navbar-link index-navbar-link-text w-nav-link" href="/preise">Preise</a><a class="index-navbar-link index-navbar-link-text w-nav-link" href="/demo">Demo</a><a class="index-navbar-link index-navbar-link-text w-nav-link" href="/produkt">Features</a><a class="index-navbar-link index-navbar-link-text w-nav-link" href="/about">Über uns</a><a class="index-navbar-link index-navbar-link-text invisible w-nav-link" href="#">Blog</a>
+        </nav>
+        <div class="menu-button w-nav-button">
+            <div class="w-icon-nav-menu"></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!DOCTYPE html>
 <!--  Last Published: Tue May 30 2017 21:52:42 GMT+0000 (UTC)  -->
@@ -27,14 +129,6 @@ $template_root = get_bloginfo('template_directory');
     <script src="<?php echo $template_root;?>/js/modernizr.js" type="text/javascript"></script>
     <link href="<?php echo $template_root;?>/images/Strive_Logo_Favicon.png" rel="shortcut icon" type="image/x-icon">
     <link href="<?php echo $template_root;?>/images/Strive_Logo_Webclip.png" rel="apple-touch-icon">
-    <script type="text/javascript">
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-        ga('create', 'UA-93977809-1', 'auto');
-        ga('send', 'pageview');
-    </script>
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
     <style>
