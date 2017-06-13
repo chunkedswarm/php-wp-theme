@@ -1,4 +1,9 @@
 <?php
+/*
+Template Name: Template 123
+*/
+?>
+<?php
 get_header();
 
 // Store theme directory
