@@ -6,7 +6,7 @@ Version: 0.0.1
 Tags: elementor
 */
 
-div.navbar-mobile>ul
+div.menu>ul
 {
     list-style-type: none;
 }
