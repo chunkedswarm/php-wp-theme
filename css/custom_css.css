@@ -4,3 +4,7 @@ div.menu>ul {
     flex-direction: row;
     padding: 0px;
 }
+
+.menu-item {
+    color: red;
+}

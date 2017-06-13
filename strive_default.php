@@ -9,8 +9,8 @@
   <meta content="StriveCDN is a leading P2P-based Live-Streaming provider. Based on ChunkedSwarm, the leading P2P distribution technology, StriveCDN sets new standards for OTT and Live Event Streaming!" property="og:description">
   <meta content="summary" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <link href="css/normalize.css" rel="stylesheet" type="text/css">
-  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/strivecdn-22124133133265e23ee2fb216ff19.webflow.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
   <script type="text/javascript">

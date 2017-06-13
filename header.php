@@ -9,10 +9,17 @@ $template_root = get_template_directory_uri();
 <head>
     <meta charset="utf-8">
     <title>%%% TITLE %%%</title>
-    <link href="<?php echo $template_root;?>/css/normalize.css" rel="stylesheet" type="text/css">
-    <link href="<?php echo $template_root;?>/css/webflow.css" rel="stylesheet" type="text/css">
+    <!-- Load favicon and webclip -->
+    <link href="<?php echo $template_root;?>/images/Strive_Logo_Favicon.png" rel="shortcut icon" type="image/x-icon">
+    <link href="<?php echo $template_root;?>/images/Strive_Logo_Webclip.png" rel="apple-touch-icon">
+
+    <!-- Load CSS files -->
+    <link href="<?php echo $template_root;?>/css/webflow/normalize.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo $template_root;?>/css/webflow/webflow.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo $template_root;?>/css/webflow/wp-strivecdn.webflow.css" rel="stylesheet" type="text/css">
     <link href="<?php echo $template_root;?>/css/custom_css.css" rel="stylesheet" type="text/css">
-    <link href="<?php echo $template_root;?>/css/wp-strivecdn.webflow.css" rel="stylesheet" type="text/css">
+
+    <!-- Load Webfont -->
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
     <script type="text/javascript">
         WebFont.load({
@@ -21,13 +28,15 @@ $template_root = get_template_directory_uri();
             }
         });
     </script>
+
     <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
     <script type="text/javascript">
         !function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);
     </script>
-    <link href="<?php echo $template_root;?>/images/Strive_Logo_Favicon.png" rel="shortcut icon" type="image/x-icon">
-    <link href="<?php echo $template_root;?>/images/Strive_Logo_Webclip.png" rel="apple-touch-icon">
+
+    <!-- Load wordpress head -->
     <?php wp_head(); ?>
+
 </head>
 
 <body class="body">
