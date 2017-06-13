@@ -37,26 +37,36 @@ $template_root = get_template_directory_uri();
                     <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
                     <style type="text/css">
                         #mc_embed_signup{background-color:transparent; clear:left; }
+                        .button {
+                            min-width: 10em;
+                            padding: 0px 1em;
+                            border-radius: 2px;
+                            background-color: #08b624;
+                            color: #fff;
+                            font-size: 1em;
+                            line-height: 2.5em;
+                            text-align: center;
+                        }
                         /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
                            We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
                     </style>
                     <div id="mc_embed_signup">
                         <form action="//strivecdn.us15.list-manage.com/subscribe/post?u=02ed6a6e43772f62f20d35008&amp;id=a9f47a9457" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                             <div id="mc_embed_signup_scroll">
-                                <h3 class="paragraph-headline">Subscribe to our mailing list</h3>
+                                <h4>Subscribe to our mailing list</h4>
                                 <!-- <div class="indicates-required"><span class="asterisk">*</span> indicates required</div> -->
                                 <div class="mc-field-group">
                                     <!-- <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
                                     </label> -->
-                                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Emailadresse...">
+                                    <input type="email" value="" name="EMAIL" class="required email input-text w-input" id="mce-EMAIL" placeholder="Emailadresse...">
                                 </div>
                                 <div class="mc-field-group">
                                     <!-- <label for="mce-FNAME">First Name </label> -->
-                                    <input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="Vorname...">
+                                    <input type="text" value="" name="FNAME" class="input-text w-input" id="mce-FNAME" placeholder="Vorname...">
                                 </div>
                                 <div class="mc-field-group">
                                     <!-- <label for="mce-LNAME">Last Name </label> -->
-                                    <input type="text" value="" name="LNAME" class="" id="mce-LNAME" placeholder="Nachname...">
+                                    <input type="text" value="" name="LNAME" class="input-text w-input" id="mce-LNAME" placeholder="Nachname...">
                                 </div>
                                 <div id="mce-responses" class="clear">
                                     <div class="response" id="mce-error-response" style="display:none"></div>
