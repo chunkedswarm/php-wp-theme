@@ -1,3 +1,8 @@
+<?php
+/*
+Template Name: v2
+*/
+?>
 <?php get_header(); ?>
   <div>
     <div class="w-container">
