@@ -33,18 +33,8 @@ $template_root = get_template_directory_uri();
 <div class="top-bar">
     <div class="top-bar-row">
         <div class="topbar-register-wrapper">
-            <div class="top-bar-text">Noch kein Konto?</div><a class="button button-small w-button" href="https://app.strivecdn.com/#/signup" target="_blank">Registrieren</a>
-        </div><a class="bg-light-blue button button-small w-button" href="#">Login</a>
-        <div class="lang-selector">
-            <div class="w-dropdown" data-delay="0">
-                <div class="dropdown-toggle w-dropdown-toggle">
-                    <div class="text-block">Deutsch</div>
-                    <div class="w-icon-dropdown-toggle"></div>
-                </div>
-                <nav class="dropdown-list w-dropdown-list"><a class="top-bar-dropdown-item w-dropdown-link" href="#">Deutsch</a><a class="top-bar-dropdown-item w-dropdown-link" id="menu-english">English</a>
-                </nav>
-            </div>
-        </div>
+            <div class="top-bar-text"><?php echo pll__('%top-bar-text%'); ?></div><a class="button button-small w-button" href="https://app.strivecdn.com/#/signup" target="_blank"><?php echo pll__('%top-bar-register%'); ?></a>
+        </div><a class="bg-light-blue button button-small w-button" href="#"><?php echo pll__('%top-bar-login%'); ?></a>
     </div>
 </div>
 
