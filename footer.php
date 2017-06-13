@@ -28,8 +28,6 @@ $template_root = get_template_directory_uri();
                 <a class="footer-page-link" href="/about">Über Uns</a><a class="footer-page-link" href="mailto:info@strivecdn.com?subject=Hello!">Kontakt</a><a class="footer-page-link" href="/impressum">Impressum</a>
             </div>
             <div class="flex-vertical w-col w-col-4">
-                <h4><?php echo pll__('%footer-headline-newsletter%'); ?></h4>
-                <div><?php echo pll__('%footer-newsletter-text%'); ?></div>
                 <?php
                 // Show opt-in form depending on current language
                 $lang = pll_current_language('slug');
