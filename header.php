@@ -56,6 +56,7 @@ $template_root = get_template_directory_uri();
             <?php
             wp_nav_menu( array(
                     'theme_location' => 'strivecdn-menu',
+                    'menu_class' => 'navbar-mobile',
                     'container_class' => 'navbar-mobile w-nav-menu' )
             );
             ?>
