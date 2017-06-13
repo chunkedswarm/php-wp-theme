@@ -6,11 +6,11 @@ $template_root = get_template_directory_uri();
     <div class="container w-container">
         <h1 class="align-center color-white">Noch nicht bei <span class="bold"><span>StriveCDN</span></span> registriert?</h1>
         <h2 class="align-center color-light-blue">Starten Sie Ihren ersten Stream in weniger als 5 Minuten!</h2>
-        <div class="w-form">
-            <form action="https://app.strivecdn.com/#/signup" class="optin-register-wrapper" data-name="Email Form 2" id="email-form-2" name="email-form-2">
+        <div>
+            <form action="https://app.strivecdn.com/#/signup" class="optin-register-wrapper>
                 <input class="input-text w-input" data-name="email" id="email-5" maxlength="256" name="email" placeholder="Emailadresse" required="required" type="email">
                 <div class="optin-button-wrapper">
-                    <input class="button w-button" data-wait="Bitte warten..." type="submit" value="Jetzt registrieren!">
+                    <input class="button w-button" type="submit" value="Jetzt registrieren!">
                     <div class="optin-login-wrapper">
                         <div class="color-white-blue">Bereits registriert?</div>
                         <div class="topbar-login-wrapper">
@@ -23,12 +23,6 @@ $template_root = get_template_directory_uri();
                     </div>
                 </div>
             </form>
-            <div class="w-form-done">
-                <div>Thank you! Your submission has been received!</div>
-            </div>
-            <div class="w-form-fail">
-                <div>Oops! Something went wrong while submitting the form</div>
-            </div>
         </div>
     </div>
 </div>
@@ -45,37 +39,12 @@ $template_root = get_template_directory_uri();
                 <h4>Newsletter</h4>
                 <div>Jetzt anmelden und immer die neuesten Informationen vom StriveCDN Team erhalten!</div>
                 <div class="v-space-small"></div>
-                <div class="w-form">
-                    <form class="footer-newsletter-form" data-name="Newsletter" data-redirect="/redirect/newsletter" id="wf-form-Newsletter" name="wf-form-Newsletter" redirect="/redirect/newsletter">
+                <div>
+                    <form class="footer-newsletter-form" id="wf-form-Newsletter" redirect="/redirect/newsletter">
                         <input class="input-text w-input" data-name="Email 4" id="email-4" maxlength="256" name="email" placeholder="Emailadresse..." required="required" type="email">
                         <div class="v-space-very-small"></div>
-                        <input class="button button-full-width w-button" data-wait="Bitte warten..." type="submit" value="Jetzt anmelden!">
+                        <input class="button button-full-width w-button" type="submit" value="Jetzt anmelden!">
                     </form>
-                    <div class="w-form-done">
-                        <div>Vielen Dank,
-                            <br>wir halten dich auf dem Laufenden!</div>
-                    </div>
-                    <div class="w-form-fail">
-                        <div class="text-block-2">Ups, da ging etwas schief.
-                            <br>Bitte versuche es noch einmal!</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-customers">
-            <h4 class="center">Unsere Kunden und Partner</h4>
-            <div class="w-row">
-                <div class="footer-partner-col w-col w-col-2"><img sizes="100vw" src="<?php echo $template_root;?>/images/bmw_logo.png">
-                </div>
-                <div class="footer-partner-col w-col w-col-2"><img sizes="100vw" src="<?php echo $template_root;?>/images/bmw_logo.png">
-                </div>
-                <div class="footer-partner-col w-col w-col-2"><img sizes="100vw" src="<?php echo $template_root;?>/images/bmw_logo.png">
-                </div>
-                <div class="footer-partner-col w-col w-col-2"><img sizes="100vw" src="<?php echo $template_root;?>/images/bmw_logo.png">
-                </div>
-                <div class="footer-partner-col w-col w-col-2"><img sizes="100vw" src="<?php echo $template_root;?>/images/bmw_logo.png">
-                </div>
-                <div class="footer-partner-col w-col w-col-2"><img sizes="100vw" src="<?php echo $template_root;?>/images/bmw_logo.png">
                 </div>
             </div>
         </div>
