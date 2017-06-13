@@ -4,7 +4,7 @@ $template_root = get_template_directory_uri();
 
 <div class="bgcolor-mid-blue section-optin">
     <div class="container w-container">
-        <h1 class="align-center color-white">Noch nicht bei <span class="bold"><span>StriveCDN</span></span> registriert?</h1>
+        <h1 class="align-center color-white"><?php echo pll__('optin-headline'); ?></h1>
         <h2 class="align-center color-light-blue">Starten Sie Ihren ersten Stream in weniger als 5 Minuten!</h2>
         <div>
             <form action="https://app.strivecdn.com/#/signup" class="optin-register-wrapper>
