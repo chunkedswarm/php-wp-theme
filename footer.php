@@ -18,6 +18,7 @@ $template_root = get_template_directory_uri();
 </div>
 <div class="footer">
     <div class="w-container">
+        <div class='mailmunch-forms-widget-508868'></div>
         <div class="w-row">
             <div class="flex-vertical w-col w-col-4">
                 <h4><?php echo pll__('%footer-headline-product%'); ?></h4>
