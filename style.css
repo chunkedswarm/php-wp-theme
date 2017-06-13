@@ -6,7 +6,9 @@ Version: 0.0.1
 Tags: elementor
 */
 
-div.menu>ul
-{
+menu>ul {
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
 }
