@@ -18,7 +18,6 @@ $template_root = get_template_directory_uri();
 </div>
 <div class="footer">
     <div class="w-container">
-        <div class='mailmunch-forms-widget-508868'></div>
         <div class="w-row">
             <div class="flex-vertical w-col w-col-4">
                 <h4><?php echo pll__('%footer-headline-product%'); ?></h4>
@@ -31,14 +30,15 @@ $template_root = get_template_directory_uri();
             <div class="flex-vertical w-col w-col-4">
                 <h4><?php echo pll__('%footer-headline-newsletter%'); ?></h4>
                 <div><?php echo pll__('%footer-newsletter-text%'); ?></div>
-                <div class="v-space-small"></div>
-                <div>
-                    <form class="footer-newsletter-form" redirect="/redirect/newsletter">
-                        <input class="input-text w-input" maxlength="256" name="email" placeholder="<?php echo pll__('%footer-newsletter-input-placeholder%'); ?>" required="required" type="email">
-                        <div class="v-space-very-small"></div>
-                        <input class="button button-full-width w-button" type="submit" value="<?php echo pll__('%footer-newsletter-input-submit%'); ?>">
-                    </form>
-                </div>
+                <?php
+                // Show opt-in form depending on current language
+                $lang = pll_current_language('slug');
+
+                if ( $lang === 'de') {
+                    echo "<div class='mailmunch-forms-widget-508868'></div>";
+                }
+                // TODO: add more languages
+                ?>
             </div>
         </div>
         <div>
