@@ -64,9 +64,13 @@ $template_root = get_template_directory_uri();
         </a>
         <nav class="navbar-mobile w-nav-menu" role="navigation">
             <?php
-            wp_nav_menu( array(
+            wp_nav_menu(
+                array(
                     'theme_location' => 'strivecdn-menu',
-                    'container_class' => 'navbar-mobile w-nav-menu' )
+                    'container_class' => 'navbar-mobile w-nav-menu',
+                    'before' => '<div class="index-navbar-link index-navbar-link-text w-nav-link">',
+                    'after' => '</div>'
+                )
             );
             ?>
             <!--
