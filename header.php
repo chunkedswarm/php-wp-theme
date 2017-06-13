@@ -8,7 +8,7 @@ $template_root = get_template_directory_uri();
 
 <head>
     <meta charset="utf-8">
-    <title>%%% TITLE %%%</title>
+    <title><?php the_title(); ?></title>
     <!-- Load favicon and webclip -->
     <link href="<?php echo $template_root;?>/images/Strive_Logo_Favicon.png" rel="shortcut icon" type="image/x-icon">
     <link href="<?php echo $template_root;?>/images/Strive_Logo_Webclip.png" rel="apple-touch-icon">
