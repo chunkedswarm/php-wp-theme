@@ -7,7 +7,11 @@ $template_root = get_template_directory_uri();
         <h1 class="align-center color-white"><?php echo pll__('%optin-headline%'); ?></h1>
         <h2 class="align-center color-light-blue"><?php echo pll__('%optin-subline%'); ?></h2>
         <div class="v-space-small"></div>
-        <div class="align-center"><a class="button w-button" href="https://app.strivecdn.com/#/signup"><?php echo pll__('%optin-register-cta%'); ?></a>
+        <div class="align-center">
+            <a class="button w-button" href="https://app.strivecdn.com/#/signup">
+                <?php echo pll__('%optin-register-cta%'); ?>
+            </a>
+        </div>
     </div>
 </div>
 
