@@ -11,6 +11,7 @@ $template_root = get_template_directory_uri();
     <title>%%% TITLE %%%</title>
     <link href="<?php echo $template_root;?>/css/normalize.css" rel="stylesheet" type="text/css">
     <link href="<?php echo $template_root;?>/css/webflow.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo $template_root;?>/css/custom_css.css" rel="stylesheet" type="text/css">
     <link href="<?php echo $template_root;?>/css/wp-strivecdn.webflow.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
     <script type="text/javascript">

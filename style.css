@@ -5,10 +5,3 @@ Description: Basic Page styling for elementor usage
 Version: 0.0.1
 Tags: elementor
 */
-
-menu>ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    padding: 0px;
-}
