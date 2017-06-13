@@ -4,16 +4,15 @@ $template_root = get_template_directory_uri();
 
 <div class="bgcolor-mid-blue section-optin">
     <div class="container w-container">
-        <h1 class="align-center color-white"><?php echo pll__('%optin-headline%'); ?></h1>
-        <h2 class="align-center color-light-blue"><?php echo pll__('%optin-subline%'); ?></h2>
-        <div>
-            <form action="https://app.strivecdn.com/#/signup" class="optin-register-wrapper>
-                <input class="input-text w-input" data-name="email" id="email-5" maxlength="256" name="email" placeholder="Emailadresse" required="required" type="email">
-                <div class="optin-button-wrapper">
-                    <input class="button w-button" type="submit" value="<?php echo pll__('%optin-register-cta%'); ?>">
-                </div>
-            </form>
-        </div>
+        <?php
+        // Show opt-in form depending on current language
+        $lang = pll_current_language('slug');
+
+        if ( $lang === 'de') {
+            echo "<div class='mailmunch-forms-widget-508824'></div>";
+        }
+        // TODO: add more languages
+        ?>
     </div>
 </div>
 <div class="footer">
