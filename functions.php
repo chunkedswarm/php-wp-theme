@@ -38,7 +38,8 @@
 //////////////////////////////////////////////////////////////////////////////
 
 function register_strivecdn_menu() {
-    register_nav_menu('strivecdn-menu',__( 'StriveCDN Menu' ));
+    register_nav_menu('strivecdn-menu-de',__( 'StriveCDN Menu DE' ));
+    register_nav_menu('strivecdn-menu-en',__( 'StriveCDN Menu EN' ));
 }
 add_action( 'init', 'register_strivecdn_menu' );
 
