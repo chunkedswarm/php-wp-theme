@@ -33,7 +33,7 @@ $template_root = get_template_directory_uri();
                 $lang = pll_current_language('slug');
 
                 if ( $lang === 'de') {
-                    echo "<div class='mailmunch-forms-widget-508868'></div>";
+                    echo '[mailmunch-form id="508824"]';
                 }
                 // TODO: add more languages
                 ?>
