@@ -1,5 +1,5 @@
 <?php
-$template_root = get_bloginfo('template_directory');
+$template_root = get_template_directory_uri();
 ?>
 
 <div class="bgcolor-mid-blue section-optin">
@@ -13,7 +13,12 @@ $template_root = get_bloginfo('template_directory');
                     <input class="button w-button" data-wait="Bitte warten..." type="submit" value="Jetzt registrieren!">
                     <div class="optin-login-wrapper">
                         <div class="color-white-blue">Bereits registriert?</div>
-                        <div class="topbar-login-wrapper"><img class="optin-login-icon" height="16" src="../images/ligature-symbols_2-11-0_login_256_0_ffffff_none.png" width="16"><a class="color-white-blue optin-login-link" href="https://app.strivecdn.com/#/signin" target="_blank">Jetzt einloggen</a>
+                        <div class="topbar-login-wrapper">
+                            <img
+                                    class="optin-login-icon"
+                                    height="16"
+                                    src="<?php echo $template_root;?>/images/ligature-symbols_2-11-0_login_256_0_ffffff_none.png"
+                                    width="16"><a class="color-white-blue optin-login-link" href="https://app.strivecdn.com/#/signin" target="_blank">Jetzt einloggen</a>
                         </div>
                     </div>
                 </div>
@@ -60,17 +65,17 @@ $template_root = get_bloginfo('template_directory');
         <div class="footer-customers">
             <h4 class="center">Unsere Kunden und Partner</h4>
             <div class="w-row">
-                <div class="footer-partner-col w-col w-col-2"><img sizes="100vw" src="../images/bmw_logo.png" srcset="../images/bmw_logo-p-500x500.png 500w, ../images/bmw_logo.png 512w">
+                <div class="footer-partner-col w-col w-col-2"><img sizes="100vw" src="<?php echo $template_root;?>/images/bmw_logo.png">
                 </div>
-                <div class="footer-partner-col w-col w-col-2"><img sizes="100vw" src="../images/bmw_logo.png" srcset="../images/bmw_logo-p-500x500.png 500w, ../images/bmw_logo.png 512w">
+                <div class="footer-partner-col w-col w-col-2"><img sizes="100vw" src="<?php echo $template_root;?>/images/bmw_logo.png">
                 </div>
-                <div class="footer-partner-col w-col w-col-2"><img sizes="100vw" src="../images/bmw_logo.png" srcset="../images/bmw_logo-p-500x500.png 500w, ../images/bmw_logo.png 512w">
+                <div class="footer-partner-col w-col w-col-2"><img sizes="100vw" src="<?php echo $template_root;?>/images/bmw_logo.png">
                 </div>
-                <div class="footer-partner-col w-col w-col-2"><img sizes="100vw" src="../images/bmw_logo.png" srcset="../images/bmw_logo-p-500x500.png 500w, ../images/bmw_logo.png 512w">
+                <div class="footer-partner-col w-col w-col-2"><img sizes="100vw" src="<?php echo $template_root;?>/images/bmw_logo.png">
                 </div>
-                <div class="footer-partner-col w-col w-col-2"><img sizes="100vw" src="../images/bmw_logo.png" srcset="../images/bmw_logo-p-500x500.png 500w, ../images/bmw_logo.png 512w">
+                <div class="footer-partner-col w-col w-col-2"><img sizes="100vw" src="<?php echo $template_root;?>/images/bmw_logo.png">
                 </div>
-                <div class="footer-partner-col w-col w-col-2"><img sizes="100vw" src="../images/bmw_logo.png" srcset="../images/bmw_logo-p-500x500.png 500w, ../images/bmw_logo.png 512w">
+                <div class="footer-partner-col w-col w-col-2"><img sizes="100vw" src="<?php echo $template_root;?>/images/bmw_logo.png">
                 </div>
             </div>
         </div>
@@ -80,7 +85,7 @@ $template_root = get_bloginfo('template_directory');
     </div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
-<script src="../js/webflow.js" type="text/javascript"></script>
+<script src="<?php echo $template_root;?>/js/webflow.js" type="text/javascript"></script>
 <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 <?php wp_footer(); ?>
 </body>
