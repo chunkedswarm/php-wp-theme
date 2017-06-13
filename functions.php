@@ -8,7 +8,7 @@
 //                 Polylang Custom String Translation
 //////////////////////////////////////////////////////////////////////////////
 
-//if ( is_plugin_active('polylang/polylang.php') ) {
+if ( is_plugin_active('polylang') ) {
 
     echo "YESSJO";
 
@@ -32,6 +32,6 @@
     pll_register_string('footer', '%footer-newsletter-input-submit%', false);
     pll_register_string('footer', '%footer-copyright%', false);
 
-//}
+}
 
 ?>
