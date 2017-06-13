@@ -40,7 +40,7 @@ $template_root = get_template_directory_uri();
                 <div>Jetzt anmelden und immer die neuesten Informationen vom StriveCDN Team erhalten!</div>
                 <div class="v-space-small"></div>
                 <div>
-                    <form class="footer-newsletter-form" id="wf-form-Newsletter" redirect="/redirect/newsletter">
+                    <form class="footer-newsletter-form" redirect="/redirect/newsletter">
                         <input class="input-text w-input" data-name="Email 4" id="email-4" maxlength="256" name="email" placeholder="Emailadresse..." required="required" type="email">
                         <div class="v-space-very-small"></div>
                         <input class="button button-full-width w-button" type="submit" value="Jetzt anmelden!">
