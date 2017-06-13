@@ -1,4 +1,4 @@
-#menu-strivecdn-menu {
+ul.menu {
     list-style-type: none;
     display: flex;
     flex-direction: row;
