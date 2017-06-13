@@ -52,8 +52,16 @@ $template_root = get_template_directory_uri();
                  sizes="(max-width: 479px) 85vw, 249.3125px"
                  src="<?php echo $template_root;?>/images/Strive_Logo_v3.png">
         </a>
+        <?php
+        wp_nav_menu( array(
+            'theme_location' => 'strivecdn-menu',
+            'container_class' => 'navbar-mobile w-nav-menu' )
+        );
+        ?>
+        <!--
         <nav class="navbar-mobile w-nav-menu" role="navigation"><a class="index-navbar-link index-navbar-link-text w-nav-link" href="/preise">Preise</a><a class="index-navbar-link index-navbar-link-text w-nav-link" href="/demo">Demo</a><a class="index-navbar-link index-navbar-link-text w-nav-link" href="/produkt">Features</a><a class="index-navbar-link index-navbar-link-text w-nav-link" href="/about">Über uns</a><a class="index-navbar-link index-navbar-link-text invisible w-nav-link" href="#">Blog</a>
         </nav>
+        -->
         <div class="menu-button w-nav-button">
             <div class="w-icon-nav-menu"></div>
         </div>
