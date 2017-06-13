@@ -1,10 +1,6 @@
-div.menu>ul {
+#menu-strivecdn-menu {
     list-style-type: none;
     display: flex;
     flex-direction: row;
     padding: 0px;
-}
-
-.page-item {
-    padding-left: 2em;
 }
