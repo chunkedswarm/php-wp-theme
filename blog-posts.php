@@ -31,10 +31,10 @@ get_header();
                             <div class="blogpost-meta-item-wrapper-left">
                                 <img class="blogpost-meta-icon-left"
                                      src="<?php echo $template_root;?>/images/fontelico_2013-08-07_emo-happy_256_0_006abd_none.png">
-                                <div>Alexander Schäfer</div>
+                                <div><?php the_author(); ?></div>
                             </div>
                             <div class="blogpost-meta-item-wrapper-right">
-                                <div>13.06.2017</div>
+                                <div><?php the_date(); ?></div>
                                 <img class="blogpost-meta-icon-right"
                                      src="<?php echo $template_root;?>/images/fontelico_2013-08-07_emo-happy_256_0_006abd_none.png">
                             </div>
