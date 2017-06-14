@@ -19,28 +19,23 @@ get_header();
                     <div class="blogpost-card">
                         <a class="w-inline-block" href="#">
                             <div class="blogpost-image-container" style="background-image: url(<?php the_field('hero_image'); ?>);"></div>
-                        </a>
+                </a>
                         <div class="v-space-very-small"></div>
                         <a class="w-inline-block" href="#"><h2 class="paragraph-headline"><?php the_title(); ?></h2></a>
                         <div class="blogpost-meta-wrapper">
                             <div class="blogpost-meta-item-wrapper-left">
                                 <img class="blogpost-meta-icon-left"
                                      src="<?php echo $template_root;?>/images/blogpost-user.png">
-                                <div>Alexander Schäfer</div>
+                                <div><?php the_author(); ?></div>
                             </div>
                             <div class="blogpost-meta-item-wrapper-right">
-                                <div>13.06.2017</div>
+                                <div><?php the_date(); ?></div>
                                 <img class="blogpost-meta-icon-right"
                                      src="<?php echo $template_root;?>/images/blogpost-time.png">
                             </div>
                         </div>
                         <div class="v-space-very-small"></div>
-                        <!--<div class="w-richtext">
-                            <h4>How to customize formatting for each rich text</h4>
-                            <p>Headings, paragraphs, blockquotes, figures, images, and figure captions can all be styled after a
-                                class is added to the rich text element using the "When inside of" nested selector system.</p>
-                        </div>-->
-                        <?php the_content(); ?>
+                        <?php the_field('sub_headline'); ?>
                         <div class="align-right"><a class="button w-button" href="#">Weiterlesen</a>
                         </div>
                     </div>

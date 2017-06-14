@@ -29,8 +29,9 @@ get_header();
                 </div>
             </div>
             <div class="v-space-small"></div>
-            <div class="blogpost-image-container single"></div>
+            <div class="blogpost-image-container single" style="background-image: url(<?php the_field('hero_image'); ?>);"></div>
             <div class="v-space-small"></div>
+            <?php the_field('sub_headline'); ?>
             <?php the_content(); ?>
 
         </div>
@@ -38,6 +39,7 @@ get_header();
         <!-- SIDE BAR CONTAINER -->
 
         <div class="sidebar-container">
+            <?php ?>
             <div class="w-richtext">
                 <h2>What’s a Rich Text element?</h2>
                 <p>The rich text element allows you to create and format headings, paragraphs, blockquotes, images,
