@@ -914,7 +914,7 @@ a {
   margin-bottom: 0.5em;
   padding-bottom: 0.25em;
   border-bottom: 1px solid #d8d8d8;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 .template-content-row {
@@ -1403,6 +1403,10 @@ a {
   background-image: url('../images/charts.jpeg');
   background-position: 50% 50%;
   background-size: cover;
+}
+
+.blogpost-image-container.single {
+  height: 20em;
 }
 
 .blogpost-meta-icon-right {
