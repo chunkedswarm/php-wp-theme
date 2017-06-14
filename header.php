@@ -8,6 +8,8 @@ $template_root = get_template_directory_uri();
 
 <head>
     <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
     <title><?php wp_title(); ?></title>
     <!-- Load favicon and webclip -->
     <link href="<?php echo $template_root;?>/images/Strive_Logo_Favicon.png" rel="shortcut icon" type="image/x-icon">
@@ -34,11 +36,10 @@ $template_root = get_template_directory_uri();
         !function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);
     </script>
 
-    <!-- Load jQuery and Webflow -->
+    <!-- Load jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
     <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css">
-    <script src="<?php echo $template_root;?>/js/webflow.js" type="text/javascript"></script>
     <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 
     <!-- Load wordpress head -->
