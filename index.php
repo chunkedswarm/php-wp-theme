@@ -16,6 +16,7 @@ get_header();
 
                     <!-- POST TEMPLATE -->
 
+                    <?php echo get_permalink(); ?>
                     <div class="blogpost-card">
                         <a class="w-inline-block" href="<?php get_permalink(); ?>">
                             <div class="blogpost-image-container" style="background-image: url(<?php the_field('hero_image'); ?>);"></div>
