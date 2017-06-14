@@ -17,11 +17,11 @@ get_header();
                     <!-- POST TEMPLATE -->
 
                     <div class="blogpost-card">
-                        <a class="w-inline-block" href="#">
+                        <a class="w-inline-block" href="<?php get_permalink(); ?>">
                             <div class="blogpost-image-container" style="background-image: url(<?php the_field('hero_image'); ?>);"></div>
                 </a>
                         <div class="v-space-very-small"></div>
-                        <a class="w-inline-block" href="#"><h2 class="paragraph-headline"><?php the_title(); ?></h2></a>
+                        <a class="w-inline-block" href="<?php get_permalink(); ?>"><h2 class="paragraph-headline"><?php the_title(); ?></h2></a>
                         <div class="blogpost-meta-wrapper">
                             <div class="blogpost-meta-item-wrapper-left">
                                 <img class="blogpost-meta-icon-left"
@@ -36,7 +36,7 @@ get_header();
                         </div>
                         <div class="v-space-very-small"></div>
                         <?php the_field('sub_headline'); ?>
-                        <div class="align-right"><a class="button w-button" href="#">Weiterlesen</a>
+                        <div class="align-right"><a class="button w-button" href="<?php get_permalink(); ?>">Weiterlesen</a>
                         </div>
                     </div>
 
