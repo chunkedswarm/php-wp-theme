@@ -16,13 +16,11 @@ get_header();
 
                     <!-- POST TEMPLATE -->
 
-                    <?php $hero_image_url = the_field('hero_image');
-                    echo $hero_image_url;
-                    ?>
+                    <?php $hero_image_url = the_field('hero_image'); ?>
 
                     <div class="blogpost-card">
                         <a class="w-inline-block" href="#">
-                            <div class="blogpost-image-container"></div>
+                            <div class="blogpost-image-container" style="background-image: url(<?php echo $hero_image_url; ?>);"></div>
                         </a>
                         <div class="v-space-very-small"></div>
                         <a class="w-inline-block" href="#"><h2 class="paragraph-headline"><?php the_title(); ?></h2></a>
