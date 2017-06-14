@@ -16,6 +16,8 @@ get_header();
 
                     <!-- POST TEMPLATE -->
 
+                    <?php echo the_field('hero_image'); ?>
+
                     <div class="blogpost-card">
                         <a class="w-inline-block" href="#">
                             <div class="blogpost-image-container"></div>
