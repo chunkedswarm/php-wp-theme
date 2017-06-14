@@ -51,15 +51,10 @@ $template_root = get_template_directory_uri();
     <div class="top-bar-row">
         <div class="topbar-register-wrapper">
             <div class="top-bar-text"><?php echo pll__('%top-bar-text%'); ?></div><a class="button button-small w-button" href="https://app.strivecdn.com/#/signup" target="_blank"><?php echo pll__('%top-bar-register%'); ?></a>
-        </div><a class="bg-light-blue button button-small w-button" href="#"><?php echo pll__('%top-bar-login%'); ?></a>
+        </div><a class="bg-light-blue button button-small w-button" href="https://app.strivecdn.com/#/signin"><?php echo pll__('%top-bar-login%'); ?></a>
     </div>
 </div>
 
-<!--
-
-        %%% NAVBAR %%% ANPASSEN %%%
-
--->
 <div class="index-navbar w-nav" data-animation="default" data-collapse="medium" data-duration="400">
     <div class="navbar w-container">
         <a
