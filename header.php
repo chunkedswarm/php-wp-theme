@@ -50,8 +50,8 @@ $template_root = get_template_directory_uri();
 <div class="top-bar">
     <div class="top-bar-row">
         <div class="topbar-register-wrapper">
-            <div class="top-bar-text"><?php echo pll__('%top-bar-text%'); ?></div><a class="button button-small w-button" href="https://app.strivecdn.com/#/signup" target="_blank"><?php echo pll__('%top-bar-register%'); ?></a>
-        </div><a class="bg-light-blue button button-small w-button" href="https://app.strivecdn.com/#/signin"><?php echo pll__('%top-bar-login%'); ?></a>
+            <div class="top-bar-text"><?php echo pll__('%top-bar-text%'); ?></div><a target="_blank" class="button button-small w-button" href="https://app.strivecdn.com/#/signup" target="_blank"><?php echo pll__('%top-bar-register%'); ?></a>
+        </div><a target="_blank" class="bg-light-blue button button-small w-button" href="https://app.strivecdn.com/#/signin"><?php echo pll__('%top-bar-login%'); ?></a>
     </div>
 </div>
 

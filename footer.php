@@ -8,7 +8,7 @@ $template_root = get_template_directory_uri();
         <h2 class="align-center color-light-blue"><?php echo pll__('%optin-subline%'); ?></h2>
         <div class="v-space-small"></div>
         <div class="align-center">
-            <a class="button w-button" href="https://app.strivecdn.com/#/signup">
+            <a target="_blank" class="button w-button" href="https://app.strivecdn.com/#/signup">
                 <?php echo pll__('%optin-register-cta%'); ?>
             </a>
         </div>
