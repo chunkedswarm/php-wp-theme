@@ -25,13 +25,13 @@ get_header();
                         <div class="blogpost-meta-wrapper">
                             <div class="blogpost-meta-item-wrapper-left">
                                 <img class="blogpost-meta-icon-left"
-                                     src="<?php echo $template_root;?>/images/fontelico_2013-08-07_emo-happy_256_0_006abd_none.png">
+                                     src="<?php echo $template_root;?>/images/blogpost-user.png">
                                 <div>Alexander Schäfer</div>
                             </div>
                             <div class="blogpost-meta-item-wrapper-right">
                                 <div>13.06.2017</div>
                                 <img class="blogpost-meta-icon-right"
-                                     src="<?php echo $template_root;?>/images/fontelico_2013-08-07_emo-happy_256_0_006abd_none.png">
+                                     src="<?php echo $template_root;?>/images/blogpost-time.png">
                             </div>
                         </div>
                         <div class="v-space-very-small"></div>
