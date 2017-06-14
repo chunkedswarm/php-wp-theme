@@ -64,7 +64,7 @@ $template_root = get_template_directory_uri();
     <div class="navbar w-container">
         <a
                 class="brand w-nav-brand"
-                href="../index.html">
+                href="<?php echo get_home_url(); ?>">
             <img class="index-navbar-brand-img"
                  sizes="(max-width: 479px) 85vw, 249.3125px"
                  src="<?php echo $template_root;?>/images/Strive_Logo_v3.png">
