@@ -68,7 +68,7 @@ get_header();
 
             <!-- SIDE BAR CONTAINER -->
 
-            <div class="sidebar-container">
+            <!-- <div class="sidebar-container">
                 <div class="w-richtext">
                     <h2>What’s a Rich Text element?</h2>
                     <p>The rich text element allows you to create and format headings, paragraphs, blockquotes, images,
@@ -86,7 +86,7 @@ get_header();
                     <p>Headings, paragraphs, blockquotes, figures, images, and figure captions can all be styled after a
                         class is added to the rich text element using the "When inside of" nested selector system.</p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 
