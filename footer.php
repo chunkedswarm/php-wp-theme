@@ -79,5 +79,6 @@ $template_root = get_template_directory_uri();
 </div>
 <?php wp_footer(); ?>
 <script src="<?php echo $template_root;?>/js/webflow.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 </body>
 </html>
