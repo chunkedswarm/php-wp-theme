@@ -43,3 +43,27 @@ function register_strivecdn_menu() {
 add_action( 'init', 'register_strivecdn_menu' );
 
 ?>
+
+//////////////////////////////////////////////////////////////////////////////
+//                 Sidebar Widget Registration
+//////////////////////////////////////////////////////////////////////////////
+
+<?php
+/**
+ * Register our sidebars and widgetized areas.
+ *
+ */
+function widgets_init() {
+
+    register_sidebar( array(
+        'name'          => 'Blog Sidebar',
+        'id'            => 'sidebar_1',
+        'before_widget' => '<div>',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h2 class="rounded">',
+        'after_title'   => '</h2>',
+    ) );
+
+}
+add_action( 'widgets_init', 'widgets_init' );
+?>
