@@ -8,7 +8,9 @@
 //                 Polylang Custom String Translation
 //////////////////////////////////////////////////////////////////////////////
 
-//if ( is_plugin_active('polylang') ) {
+include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
+
+if ( is_plugin_active('polylang') ) {
 
     // Top Bar
     pll_register_string('top-bar', '%top-bar-text%', false);
@@ -30,7 +32,7 @@
     pll_register_string('footer', '%footer-newsletter-input-submit%', false);
     pll_register_string('footer', '%footer-copyright%', false);
 
-//}
+}
 
 
 //////////////////////////////////////////////////////////////////////////////
