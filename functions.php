@@ -42,13 +42,10 @@ function register_strivecdn_menu() {
 }
 add_action( 'init', 'register_strivecdn_menu' );
 
-?>
-
 //////////////////////////////////////////////////////////////////////////////
 //                 Sidebar Widget Registration
 //////////////////////////////////////////////////////////////////////////////
 
-<?php
 /**
  * Register our sidebars and widgetized areas.
  *
@@ -66,4 +63,5 @@ function widgets_init() {
 
 }
 add_action( 'widgets_init', 'widgets_init' );
+
 ?>
