@@ -10,7 +10,7 @@
 
 include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 
-if ( is_plugin_active('polylang') ) {
+if ( is_plugin_active('polylang') || is_plugin_active('polylang-pro') ) {
 
     // Top Bar
     pll_register_string('top-bar', '%top-bar-text%', false);
