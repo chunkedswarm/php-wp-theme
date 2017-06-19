@@ -1313,15 +1313,12 @@ a {
   display: flex;
   width: 30%;
   margin-left: 2em;
-  padding: 1em;
+  padding: 0.5em;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  border: 1px solid #d4d4d4;
-  border-radius: 2px;
-  box-shadow: 0 0 6px 0 #e0e0e0;
 }
 
 .section {
@@ -1983,4 +1980,3 @@ a {
     height: 16em;
   }
 }
-
