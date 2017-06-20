@@ -24,7 +24,7 @@ $template_root = get_template_directory_uri();
             </div>
             <div class="flex-vertical w-col w-col-4">
                 <h4><?php echo pll__('%footer-headline-company%'); ?></h4>
-                <a class="footer-page-link" href="/about">Über Uns</a><a class="footer-page-link" href="mailto:info@strivecdn.com?subject=Hello!">Kontakt</a><a class="footer-page-link" href="/impress">Impressum</a>
+                <a class="footer-page-link" href="/about">Über Uns</a><a class="footer-page-link" href="mailto:info@strivecdn.com?subject=Hello!">Kontakt</a><a class="footer-page-link" href="/imprint">Impressum</a>
             </div>
             <div class="flex-vertical w-col w-col-4">
                 <?php
