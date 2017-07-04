@@ -42,6 +42,10 @@ $template_root = get_template_directory_uri();
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css">
     <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/3385585.js"></script>
+    <!-- End of HubSpot Embed Code -->
+
     <!-- Load wordpress head -->
     <?php wp_head(); ?>
 
