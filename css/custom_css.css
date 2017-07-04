@@ -16,6 +16,10 @@ ul.menu {
     padding-right: 0.5em;
 }
 
+div .index-navbar .w-nav {
+    z-index: 1000;
+}
+
 /*
 .navbar-menu ul.menu {
     list-style-type: none;
