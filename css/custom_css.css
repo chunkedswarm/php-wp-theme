@@ -1,3 +1,4 @@
+/*
 ul.menu {
     list-style-type: none;
     display: flex;
@@ -5,6 +6,7 @@ ul.menu {
     padding: 0px;
     margin: 0px;
 }
+*/
 
 .w-container {
     margin-left: auto;
@@ -12,4 +14,47 @@ ul.menu {
     max-width: 1200px;
     padding-left: 0.5em;
     padding-right: 0.5em;
+}
+
+.navbar-menu ul.menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar-menu a {
+    color: #d54744 !important;
+    text-decoration: none;
+}
+
+.footer-nav-menu ul.menu {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer-nav-menu a {
+    color: white !important;
+    text-decoration: none;
+}
+
+.fb-footer-form {
+    margin-bottom: 1em;
+}
+
+/* Mobile Menu Optimization */
+
+@media screen and (max-width: 991px) {
+
+    .navbar-menu {
+        margin: 0px;
+    }
+
+    #menu-fb-kundendienst-menu {
+        flex-direction: column;
+    }
+
 }
