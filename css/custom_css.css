@@ -16,7 +16,7 @@ ul.menu {
     padding-right: 0.5em;
 }
 
-/*
+
 .navbar-menu ul.menu {
     list-style-type: none;
     display: flex;
@@ -25,38 +25,6 @@ ul.menu {
     margin: 0px;
 }
 
-.navbar-menu a {
-    color: #d54744 !important;
+.navbar-mobile a {
     text-decoration: none;
 }
-
-.footer-nav-menu ul.menu {
-    list-style-type: none;
-    text-decoration: none;
-    padding: 0px;
-    margin: 0px;
-}
-
-.footer-nav-menu a {
-    color: white !important;
-    text-decoration: none;
-}
-
-.fb-footer-form {
-    margin-bottom: 1em;
-}
-
-
-
-@media screen and (max-width: 991px) {
-
-    .navbar-menu {
-        margin: 0px;
-    }
-
-    #menu-fb-kundendienst-menu {
-        flex-direction: column;
-    }
-
-}
-*/
