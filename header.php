@@ -74,7 +74,7 @@ $template_root = get_template_directory_uri();
                  sizes="(max-width: 479px) 85vw, 249.3125px"
                  src="<?php echo $template_root;?>/images/Strive_Logo_v3.png">
         </a>
-        <nav class="navbar-mobile w-nav-menu" role="navigation">
+        <nav class="navbar-menu w-nav-menu" role="navigation">
             <?php
             wp_nav_menu(
                 array(
