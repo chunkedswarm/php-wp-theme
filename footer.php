@@ -2,7 +2,7 @@
 $template_root = get_template_directory_uri();
 ?>
 
-<div class="bgcolor-mid-blue section-optin">
+<!-- <div class="bgcolor-mid-blue section-optin">
     <div class="container w-container">
         <h1 class="align-center color-white"><?php echo pll__('%optin-headline%'); ?></h1>
         <h2 class="align-center color-light-blue"><?php echo pll__('%optin-subline%'); ?></h2>
@@ -13,7 +13,7 @@ $template_root = get_template_directory_uri();
             </a>
         </div>
     </div>
-</div>
+</div> -->
 
 <div class="footer">
     <div class="w-container">
