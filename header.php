@@ -76,13 +76,6 @@ $template_root = get_template_directory_uri();
                 )
             );
             ?>
-            <!--
-            <a class="index-navbar-link index-navbar-link-text w-nav-link" href="/preise">Preise</a>
-            <a class="index-navbar-link index-navbar-link-text w-nav-link" href="/demo">Demo</a>
-            <a class="index-navbar-link index-navbar-link-text w-nav-link" href="/produkt">Features</a>
-            <a class="index-navbar-link index-navbar-link-text w-nav-link" href="/about">Über uns</a>
-            <a class="index-navbar-link index-navbar-link-text invisible w-nav-link" href="#">Blog</a>
-            -->
         </nav>
         <div class="menu-button w-nav-button">
             <div class="w-icon-nav-menu"></div>
