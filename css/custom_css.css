@@ -17,7 +17,7 @@ ul.menu {
 }
 
 
-.navbar-menu ul.menu {
+.navbar-mobile ul.menu {
     list-style-type: none;
     display: flex;
     flex-direction: row;
