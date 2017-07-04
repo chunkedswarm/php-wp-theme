@@ -1,4 +1,4 @@
-/*
+
 ul.menu {
     list-style-type: none;
     display: flex;
@@ -6,7 +6,7 @@ ul.menu {
     padding: 0px;
     margin: 0px;
 }
-*/
+
 
 .w-container {
     margin-left: auto;
@@ -16,6 +16,7 @@ ul.menu {
     padding-right: 0.5em;
 }
 
+/*
 .navbar-menu ul.menu {
     list-style-type: none;
     display: flex;
@@ -45,7 +46,7 @@ ul.menu {
     margin-bottom: 1em;
 }
 
-/* Mobile Menu Optimization */
+
 
 @media screen and (max-width: 991px) {
 
@@ -58,3 +59,4 @@ ul.menu {
     }
 
 }
+*/
