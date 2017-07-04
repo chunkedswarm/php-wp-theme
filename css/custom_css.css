@@ -28,3 +28,15 @@ ul.menu {
 .navbar-mobile a {
     text-decoration: none;
 }
+
+@media screen and (max-width: 991px) {
+
+    .navbar-menu {
+        margin: 0px;
+    }
+
+    .navbar-mobile ul.menu {
+        flex-direction: column;
+    }
+
+}
