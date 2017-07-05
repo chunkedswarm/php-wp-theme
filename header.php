@@ -43,7 +43,7 @@ $template_root = get_template_directory_uri();
     <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 
     <!-- Start of HubSpot Embed Code -->
-    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/3385585.js"></script>
+    <!-- <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/3385585.js"></script> -->
     <!-- End of HubSpot Embed Code -->
 
     <!-- Load wordpress head -->
@@ -54,13 +54,13 @@ $template_root = get_template_directory_uri();
 <body class="body">
 
 
-<div class="top-bar">
+<!-- <div class="top-bar">
     <div class="top-bar-row">
         <div class="topbar-register-wrapper">
             <div class="top-bar-text"><?php echo pll__('%top-bar-text%'); ?></div><a target="_blank" class="button button-small w-button" href="https://app.strivecdn.com/#/signup" target="_blank"><?php echo pll__('%top-bar-register%'); ?></a>
         </div><a target="_blank" class="bg-light-blue button button-small w-button" href="https://app.strivecdn.com/#/signin"><?php echo pll__('%top-bar-login%'); ?></a>
     </div>
-</div>
+</div> -->
 
 
 
