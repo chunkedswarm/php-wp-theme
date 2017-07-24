@@ -12,6 +12,9 @@ add_filter('allowed_http_origins', 'add_allowed_origins');
 
 function add_allowed_origins($origins) {
     $origins[] = 'https://strivecdn.com';
+    $origins[] = 'https://www.strivecdn.com';
+    $origins[] = 'https://strivecdn.de';
+    $origins[] = 'https://www.strivecdn.de';
     return $origins;
 }
 
