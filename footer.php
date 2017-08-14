@@ -32,6 +32,9 @@ $template_root = get_template_directory_uri();
                         }
 
                         @media (max-width: 767px) {
+                            div.footer {
+                                text-align: center;
+                            }
                             #mc_embed_signup form {
                                 text-align: center;
                             }
