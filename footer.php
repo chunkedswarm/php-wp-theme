@@ -31,6 +31,19 @@ $template_root = get_template_directory_uri();
                             clear: left;
                         }
 
+                        @media (max-width: 767px) {
+                            #mc_embed_signup form {
+                                text-align: center;
+                            }
+                            .footer-page-link {
+                                text-align: center;
+                            }
+                        }
+
+                        #mc-embedded-subscribe {
+                            background-color: #001a35 !important;
+                        }
+
                         form {
                             padding: 0px;
                         }
