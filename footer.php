@@ -31,6 +31,10 @@ $template_root = get_template_directory_uri();
                             clear: left;
                         }
 
+                        .input-text .w-input {
+                            min-height: 2.5em;
+                        }
+
                         @media (max-width: 767px) {
                             div.footer {
                                 text-align: center;
