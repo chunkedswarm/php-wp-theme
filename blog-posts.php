@@ -19,20 +19,31 @@ get_header();
                 <!-- Start the Loop. -->
                 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-                    <?php
-                    if (has_category('fb-kundendienst-beschwerde')) {
-                        continue;
-                    }
-                    ?>
-
                     <!-- POST TEMPLATE -->
 
                     <div class="blogpost-card">
+
                         <a class="w-inline-block" href="#">
                             <div class="blogpost-image-container"></div>
                         </a>
-                        <div class="v-space-very-small"></div>
+
                         <a class="w-inline-block" href="#"><h2 class="paragraph-headline"><?php the_title(); ?></h2></a>
+
+                        <div class="v-space-very-small"></div>
+                        <!--<div class="w-richtext">
+                            <h4>How to customize formatting for each rich text</h4>
+                            <p>Headings, paragraphs, blockquotes, figures, images, and figure captions can all be styled after a
+                                class is added to the rich text element using the "When inside of" nested selector system.</p>
+                        </div>-->
+
+                        <?php the_content(); ?>
+
+                        <div class="align-right">
+                            <a class="button w-button" href="#">Weiterlesen</a>
+                        </div>
+
+                        <div class="v-space-very-small"></div>
+
                         <div class="blogpost-meta-wrapper">
                             <div class="blogpost-meta-item-wrapper-left">
                                 <img class="blogpost-meta-icon-left"
@@ -45,15 +56,7 @@ get_header();
                                      src="<?php echo $template_root;?>/images/fontelico_2013-08-07_emo-happy_256_0_006abd_none.png">
                             </div>
                         </div>
-                        <div class="v-space-very-small"></div>
-                        <!--<div class="w-richtext">
-                            <h4>How to customize formatting for each rich text</h4>
-                            <p>Headings, paragraphs, blockquotes, figures, images, and figure captions can all be styled after a
-                                class is added to the rich text element using the "When inside of" nested selector system.</p>
-                        </div>-->
-                        <?php the_content(); ?>
-                        <div class="align-right"><a class="button w-button" href="#">Weiterlesen</a>
-                        </div>
+
                     </div>
 
                     <!-- END POST TEMPLATE -->
