@@ -23,18 +23,20 @@ get_header();
 
                 <div class="blogpost-card">
 
-                    <a class="w-inline-block" href="#">
-                        <div class="blogpost-image-container"></div>
+                    <a class="w-inline-block" href="<?php echo get_permalink(); ?>">
+                        <div class="blogpost-image-container" style="background-image: url(<?php the_field('hero_image'); ?>);"></div>
                     </a>
 
-                    <a class="w-inline-block" href="#"><h2 class="paragraph-headline"><?php the_title(); ?></h2></a>
+                    <a class="w-inline-block" href="<?php echo get_permalink(); ?>">
+                        <h2 class="paragraph-headline"><?php the_title(); ?></h2>
+                    </a>
 
                     <div class="v-space-very-small"></div>
 
-                    <?php the_content(); ?>
+                    <?php the_field('sub_headline'); ?>
 
                     <div class="align-right">
-                        <a class="button w-button" href="#">Weiterlesen</a>
+                        <a class="button w-button" href="<?php echo get_permalink(); ?>">Weiterlesen</a>
                     </div>
 
                     <div class="v-space-very-small"></div>
@@ -42,16 +44,15 @@ get_header();
                     <div class="blogpost-meta-wrapper">
                         <div class="blogpost-meta-item-wrapper-left">
                             <img class="blogpost-meta-icon-left"
-                                 src="<?php echo $template_root;?>/images/fontelico_2013-08-07_emo-happy_256_0_006abd_none.png">
+                                 src="<?php echo $template_root;?>/images/blogpost-user.png">
                             <div><?php the_author(); ?></div>
                         </div>
                         <div class="blogpost-meta-item-wrapper-right">
                             <div><?php the_date(); ?></div>
                             <img class="blogpost-meta-icon-right"
-                                 src="<?php echo $template_root;?>/images/fontelico_2013-08-07_emo-happy_256_0_006abd_none.png">
+                                 src="<?php echo $template_root;?>/images/blogpost-time.png">
                         </div>
                     </div>
-
                 </div>
 
                 <!-- END POST TEMPLATE -->
