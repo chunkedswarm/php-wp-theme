@@ -30,11 +30,6 @@ get_header();
                         <a class="w-inline-block" href="#"><h2 class="paragraph-headline"><?php the_title(); ?></h2></a>
 
                         <div class="v-space-very-small"></div>
-                        <!--<div class="w-richtext">
-                            <h4>How to customize formatting for each rich text</h4>
-                            <p>Headings, paragraphs, blockquotes, figures, images, and figure captions can all be styled after a
-                                class is added to the rich text element using the "When inside of" nested selector system.</p>
-                        </div>-->
 
                         <?php the_content(); ?>
 
