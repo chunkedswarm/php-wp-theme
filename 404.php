@@ -11,4 +11,7 @@ Template Name: 404 - Nicht gefunden
             <div>Die angeforderte Ressource wurde leider nicht gefunden.</div>
         </div>
     </div>
+<script>
+    document.title="404 - Not found";
+</script>
 <?php get_footer(); ?>
