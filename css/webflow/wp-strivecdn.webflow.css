@@ -1430,6 +1430,34 @@ a {
   padding-bottom: 86px;
 }
 
+._404-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 6em;
+  padding-bottom: 6em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+._404-h1 {
+  font-size: 3em;
+  line-height: 2em;
+  text-align: center;
+}
+
 @media (max-width: 991px) {
   .body {
     overflow: auto;
@@ -1984,3 +2012,4 @@ a {
     height: 16em;
   }
 }
+
