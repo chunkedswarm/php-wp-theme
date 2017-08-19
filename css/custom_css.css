@@ -40,3 +40,9 @@ ul.menu {
     }
 
 }
+
+/* FIX POPUP PLUGIN ERROR */
+
+html.pum-open.pum-open-overlay.pum-open-scrollable body>[aria-hidden]{
+    padding-right:0px !important;
+}
