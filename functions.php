@@ -46,6 +46,8 @@ if ( is_plugin_active('polylang') || is_plugin_active('polylang-pro') ) {
     pll_register_string('footer', '%footer-newsletter-input-submit%', false);
     pll_register_string('footer', '%footer-copyright%', false);
 
+    //
+
 }
 
 
