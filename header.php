@@ -46,15 +46,12 @@ $template_root = get_template_directory_uri();
     <!-- <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/3385585.js"></script> -->
     <!-- End of HubSpot Embed Code -->
 
-    <meta property="og:site_name" content="<?php the_title(); ?>" />
+    <meta property="og:site_name" content="StriveCDN" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="Block Storage Comes to Bangalore; Three More Datacenters on the Way!" />
-    <meta property="og:description" content="&lt;p&gt;Today, we&#x27;re excited to share that &lt;a href&#x3D;&#x27;https://www.digitalocean.com/products/storage/&#x27;&gt;Block Storage&lt;/a&gt; is available to all Droplets in our Bangalore region. With Block Storage, you can scal" />
-    <meta property="og:url" content="https://blog.digitalocean.com/block-storage-comes-to-singapore/" />
-    <meta property="og:image" content="https://assets.digitalocean.com/ghost/2017/08/Updated_Block_Storage_India_Blog.png" />
-    <meta property="article:published_time" content="2017-08-28T21:00:00.000Z" />
-    <meta property="article:modified_time" content="2017-08-29T13:59:09.000Z" />
-    <meta property="article:tag" content="Product Updates" />
+    <meta property="og:title" content="<?php the_title(); ?>" />
+    <meta property="og:description" content="<?php the_field('sub_headline'); ?>" />
+    <meta property="og:url" content="<?php echo get_page_link(); ?>" />
+    <meta property="og:image" content="<?php the_field('hero_image'); ?>" />
 
     <!-- Load wordpress head -->
     <?php wp_head(); ?>
