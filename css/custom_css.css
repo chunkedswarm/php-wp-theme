@@ -24,6 +24,10 @@ ul.menu {
     text-align: justify;
 }
 
+.blogpost-image-container {
+    height: 20em;
+}
+
 .navbar-mobile ul.menu {
     list-style-type: none;
     display: flex;
