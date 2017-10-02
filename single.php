@@ -31,7 +31,8 @@ get_header();
             <div class="v-space-small"></div>
             <div class="blogpost-image-container single" style="background-image: url(<?php the_field('hero_image'); ?>);"></div>
             <div class="v-space-small"></div>
-            <?php the_field('sub_headline'); ?>
+            <div class="sub-headline"><strong><?php the_field('sub_headline'); ?></strong></div>
+
             <?php the_content(); ?>
 
         </div>

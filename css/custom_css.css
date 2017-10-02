@@ -16,6 +16,13 @@ ul.menu {
     padding-right: 0.5em;
 }
 
+.section-title {
+    font-size: 1.5em;
+}
+
+.sub-headline {
+    text-align: justify;
+}
 
 .navbar-mobile ul.menu {
     list-style-type: none;
