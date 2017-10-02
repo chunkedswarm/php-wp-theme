@@ -6,23 +6,18 @@ $template_root = get_template_directory_uri();
     <div class="w-container">
         <div class="w-row">
             <div class="flex-vertical w-col w-col-4">
-                <h4><?php echo pll__('%footer-headline-product%'); ?></h4>
-                <a class="footer-page-link" href="/solutions">Lösungen</a>
-                <a class="footer-page-link" href="/products/livegrid">StriveCDN LiveGrid</a>
-                <a class="footer-page-link" href="/products/trafficboost">StriveCDN TrafficBoost</a>
+                <h4>Product</h4>
+                <a class="footer-page-link" href="/solutions">Solutions</a>
+                <a class="footer-page-link" href="/products/livegrid">LiveGrid CDN</a>
+                <a class="footer-page-link" href="/products/trafficboost">TrafficBoost</a>
             </div>
             <div class="flex-vertical w-col w-col-4">
-                <h4><?php echo pll__('%footer-headline-company%'); ?></h4>
-                <a class="footer-page-link" href="/about">Über Uns</a>
-                <a class="footer-page-link" href="mailto:info@strivecdn.com?subject=Hello!">Kontakt</a>
-                <a class="footer-page-link" href="/imprint">Impressum</a>
+                <h4>Content</h4>
+                <a class="footer-page-link" href="/about">Team</a>
+                <a class="footer-page-link" href="mailto:info@strivecdn.com?subject=Hello!">Contact</a>
+                <a class="footer-page-link" href="/imprint">Imprint</a>
             </div>
             <div class="flex-vertical w-col w-col-4">
-                <?php
-                // Show opt-in form depending on current language
-                $polylang_language = pll_current_language('slug');
-                ?>
-                <?php if ($polylang_language === 'de'): ?>
                     <!-- Begin MailChimp Signup Form -->
                     <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
                     <style type="text/css">
@@ -69,17 +64,17 @@ $template_root = get_template_directory_uri();
                                     <!-- <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
                                     </label> -->
                                     <input type="email" value="" name="EMAIL" class="required email input-text w-input"
-                                           id="mce-EMAIL" placeholder="Emailadresse...">
+                                           id="mce-EMAIL" placeholder="Email...">
                                 </div>
                                 <div class="mc-field-group">
                                     <!-- <label for="mce-FNAME">First Name </label> -->
                                     <input type="text" value="" name="FNAME" class="input-text w-input" id="mce-FNAME"
-                                           placeholder="Vorname...">
+                                           placeholder="Your name...">
                                 </div>
                                 <div class="mc-field-group">
                                     <!-- <label for="mce-LNAME">Last Name </label> -->
                                     <input type="text" value="" name="LNAME" class="input-text w-input" id="mce-LNAME"
-                                           placeholder="Nachname...">
+                                           placeholder="Your surname...">
                                 </div>
                                 <div id="mce-responses" class="clear">
                                     <div class="response" id="mce-error-response" style="display:none"></div>
@@ -91,18 +86,17 @@ $template_root = get_template_directory_uri();
                                                                                                           tabindex="-1"
                                                                                                           value="">
                                 </div>
-                                <div class="clear"><input type="submit" value="Jetzt eintragen!" name="subscribe"
+                                <div class="clear"><input type="submit" value="Subscribe now!" name="subscribe"
                                                           id="mc-embedded-subscribe" class="button"></div>
                             </div>
                         </form>
                     </div>
 
                     <!--End mc_embed_signup-->
-                <?php endif; ?>
             </div>
         </div>
         <div>
-            <div class="align-center color-light-grey"><?php echo pll__('%footer-copyright%'); ?></div>
+            <div class="align-center color-light-grey">Strive Media GmbH - 2017</div>
         </div>
     </div>
 </div>
