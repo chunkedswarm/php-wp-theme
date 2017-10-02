@@ -33,7 +33,7 @@ get_header();
 
                     <div class="v-space-very-small"></div>
 
-                    <?php the_field('sub_headline'); ?>
+                    <div class="justify-text"><?php the_field('sub_headline'); ?></div>
 
                     <div class="align-right">
                         <a class="button w-button" href="<?php echo get_permalink(); ?>">Weiterlesen</a>
