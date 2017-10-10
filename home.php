@@ -24,7 +24,7 @@ get_header();
                 <div class="blogpost-card">
 
                     <a class="w-inline-block" href="<?php echo get_permalink(); ?>">
-                        <div class="blogpost-image-container" style="background-image: url(<?php the_field('hero_image'); ?>);"></div>
+                        <div class="blogpost-image-container" style="background-image: url(<?php the_field('hero_image'); ?>); height: 20em;"></div>
                     </a>
 
                     <a class="w-inline-block" href="<?php echo get_permalink(); ?>">
@@ -33,7 +33,7 @@ get_header();
 
                     <div class="v-space-very-small"></div>
 
-                    <?php the_field('sub_headline'); ?>
+                    <div class="justify-text"><?php the_field('sub_headline'); ?></div>
 
                     <div class="align-right">
                         <a class="button w-button" href="<?php echo get_permalink(); ?>">Read more</a>

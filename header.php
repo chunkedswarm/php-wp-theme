@@ -46,13 +46,6 @@ $template_root = get_template_directory_uri();
     <!-- <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/3385585.js"></script> -->
     <!-- End of HubSpot Embed Code -->
 
-    <meta property="og:site_name" content="StriveCDN" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="<?php the_title(); ?>" />
-    <meta property="og:description" content="<?php the_field('sub_headline'); ?>" />
-    <meta property="og:url" content="<?php echo get_page_link(); ?>" />
-    <meta property="og:image" content="<?php the_field('hero_image'); ?>" />
-
     <!-- Load wordpress head -->
     <?php wp_head(); ?>
 
@@ -64,8 +57,8 @@ $template_root = get_template_directory_uri();
 <!-- <div class="top-bar">
     <div class="top-bar-row">
         <div class="topbar-register-wrapper">
-            <div class="top-bar-text"><?php echo pll__('%top-bar-text%'); ?></div><a target="_blank" class="button button-small w-button" href="https://app.strivecdn.com/#/signup" target="_blank"><?php echo pll__('%top-bar-register%'); ?></a>
-        </div><a target="_blank" class="bg-light-blue button button-small w-button" href="https://app.strivecdn.com/#/signin"><?php echo pll__('%top-bar-login%'); ?></a>
+            <div class="top-bar-text"></div><a target="_blank" class="button button-small w-button" href="https://app.strivecdn.com/#/signup" target="_blank"></a>
+        </div><a target="_blank" class="bg-light-blue button button-small w-button" href="https://app.strivecdn.com/#/signin"></a>
     </div>
 </div> -->
 
