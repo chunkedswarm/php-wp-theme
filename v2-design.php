@@ -64,32 +64,6 @@ $template_root = get_template_directory_uri();
 
 <body class="body">
 
-<!--
-
-<div class="index-navbar w-nav" data-animation="default" data-collapse="medium" data-duration="400">
-    <div class="navbar w-container">
-        <a class="brand w-nav-brand" href="<?php echo get_home_url(); ?>">
-            <img class="index-navbar-brand-img" sizes="(max-width: 479px) 85vw, 249.3125px" src="<?php echo $template_root;?>/images/Strive_Logo_v3.png">
-        </a>
-        <nav class="navbar-mobile w-nav-menu" role="navigation">
-            <?php
-            wp_nav_menu(
-                array(
-                    'theme_location' => 'strivecdn-menu',
-                    'before' => '<div class="index-navbar-link index-navbar-link-text w-nav-link">',
-                    'after' => '</div>'
-                )
-            );
-            ?>
-        </nav>
-        <div class="menu-button w-nav-button">
-            <div class="w-icon-nav-menu"></div>
-        </div>
-    </div>
-</div>
-
--->
-
 <?php the_content(); ?>
 
 <?php wp_footer(); ?>
