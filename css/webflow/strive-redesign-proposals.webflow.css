@@ -37,13 +37,13 @@
 }
 
 .body {
-  background-color: #fafafa;
-  font-family: Montserrat, sans-serif;
-  color: #969696;
-  font-size: 1em;
-  line-height: 1.5em;
-  font-weight: 300;
-  text-shadow: 0 1px 0 rgba(63, 63, 63, .15);
+  background-color: #fafafa !important;
+  font-family: Montserrat, sans-serif !important;
+  color: #969696 !important;
+  font-size: 1em !important;
+  line-height: 1.5em !important;
+  font-weight: 300 !important;
+  text-shadow: 0 1px 0 rgba(63, 63, 63, .15) !important;
 }
 
 .container {
