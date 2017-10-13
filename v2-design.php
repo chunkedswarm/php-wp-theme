@@ -4,12 +4,6 @@ Template Name: Design V2
 */
 ?>
 <?php
-
-$template_root = get_template_directory_uri();
-
-
-
-<?php
 $template_root = get_template_directory_uri();
 ?>
 
