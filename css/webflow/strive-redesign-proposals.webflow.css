@@ -36,7 +36,7 @@
   color: #fafafa;
 }
 
-.v1-body {
+.body {
   background-color: #fafafa;
   font-family: Montserrat, sans-serif;
   color: #969696;
@@ -46,7 +46,7 @@
   text-shadow: 0 1px 0 rgba(63, 63, 63, .15);
 }
 
-.v1-container {
+.container {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -65,7 +65,7 @@
   flex: 1;
 }
 
-.v1-h1 {
+.h1 {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 0.25em;
@@ -127,7 +127,7 @@
   align-items: flex-end;
 }
 
-.v1-h2 {
+.h2 {
   margin-top: 0px;
   margin-bottom: 0px;
   color: #3f3f3f;
@@ -271,7 +271,7 @@
     padding-top: 3em;
     padding-bottom: 3em;
   }
-  .v1-container {
+  .container {
     padding-right: 1em;
     padding-left: 1em;
   }
