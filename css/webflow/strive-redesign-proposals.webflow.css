@@ -17,19 +17,10 @@ h2 {
   display: flex;
   padding-top: 4em;
   padding-bottom: 4em;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
 }
 
 .section.section-dark {
@@ -66,11 +57,8 @@ h2 {
 }
 
 .container {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  max-width: 970px;
+  display: block;
+  max-width: 1170px;
   padding-right: 0.5em;
   padding-left: 0.5em;
   -webkit-box-orient: vertical;
@@ -110,8 +98,8 @@ h2 {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-right: -0.25em;
-  margin-left: -0.25em;
+  margin-right: -0.5em;
+  margin-left: -0.5em;
 }
 
 .column {
@@ -119,7 +107,7 @@ h2 {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 0.25em;
+  padding: 0.25em 0.5em;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
