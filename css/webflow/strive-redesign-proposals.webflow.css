@@ -22,28 +22,35 @@
 
 .section.section-dark {
   background-color: #0a151f;
-  color: #cecece;
+  color: #fafafa;
   text-shadow: 0 1px 0 hsla(0, 0%, 100%, .15);
 }
 
 .section.section-dark-grey {
   background-color: #3f3f3f;
   color: #cecece;
+  text-shadow: 0 1px 0 hsla(0, 0%, 100%, .15);
 }
 
 .section.section-blue {
   background-color: #0070ff;
   color: #fafafa;
+  text-shadow: 0 1px 0 hsla(0, 0%, 98%, .15);
+}
+
+.section.section-orange {
+  background-color: #faa004;
+  color: #fafafa;
 }
 
 .body {
-  background-color: #fafafa !important;
-  font-family: Montserrat, sans-serif !important;
-  color: #969696 !important;
-  font-size: 1em !important;
-  line-height: 1.5em !important;
-  font-weight: 300 !important;
-  text-shadow: 0 1px 0 rgba(63, 63, 63, .15) !important;
+  background-color: #fafafa;
+  font-family: Montserrat, sans-serif;
+  color: #3f3f3f;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-weight: 300;
+  text-shadow: 0 1px 0 rgba(63, 63, 63, .15);
 }
 
 .container {
@@ -70,7 +77,6 @@
   margin-bottom: 0px;
   padding-top: 0.25em;
   padding-bottom: 0.25em;
-  color: #3f3f3f;
   font-size: 2em;
   font-weight: 600;
 }
@@ -113,13 +119,6 @@
   flex: 1;
 }
 
-.column.center {
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .column.right {
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
@@ -130,7 +129,6 @@
 .h2 {
   margin-top: 0px;
   margin-bottom: 0px;
-  color: #3f3f3f;
   font-size: 1.5em;
   font-weight: 500;
 }
@@ -144,33 +142,33 @@
   padding-bottom: 1em;
 }
 
-.bg-highlight-orange {
+.bg-color-orange {
   background-color: #faa004;
 }
 
-.bg-highlight-orange.flex-h-stretch.gradient {
+.bg-color-orange.flex-h-stretch.gradient {
   background-image: -webkit-linear-gradient(45deg, rgba(0, 0, 0, .1), hsla(0, 0%, 100%, .1));
   background-image: linear-gradient(45deg, rgba(0, 0, 0, .1), hsla(0, 0%, 100%, .1));
 }
 
-.color-white {
+.color-light {
   color: #fafafa;
 }
 
-.bg-highlight-green {
+.bg-color-green {
   background-color: #4bd147;
 }
 
-.bg-highlight-green.flex-h-stretch.gradient {
+.bg-color-green.flex-h-stretch.gradient {
   background-image: -webkit-linear-gradient(45deg, rgba(0, 0, 0, .1), hsla(0, 0%, 100%, .1));
   background-image: linear-gradient(45deg, rgba(0, 0, 0, .1), hsla(0, 0%, 100%, .1));
 }
 
-.bg-highlight-blue {
+.bg-color-blue {
   background-color: #0070ff;
 }
 
-.bg-highlight-blue.flex-h-stretch.gradient {
+.bg-color-blue.flex-h-stretch.gradient {
   background-image: -webkit-linear-gradient(45deg, rgba(0, 0, 0, .1), hsla(0, 0%, 100%, .1));
   background-image: linear-gradient(45deg, rgba(0, 0, 0, .1), hsla(0, 0%, 100%, .1));
 }
@@ -204,11 +202,11 @@
   padding-bottom: 0.5em;
 }
 
-.bg-highlight-dark {
+.bg-color-dark {
   background-color: #0a151f;
 }
 
-.bg-highlight-dark.flex-h-stretch.gradient {
+.bg-color-dark.flex-h-stretch.gradient {
   background-image: -webkit-linear-gradient(45deg, rgba(0, 0, 0, .1), hsla(0, 0%, 100%, .1));
   background-image: linear-gradient(45deg, rgba(0, 0, 0, .1), hsla(0, 0%, 100%, .1));
 }
@@ -228,7 +226,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 0.75em 2em;
+  padding: 1em 3em;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -243,10 +241,13 @@
   -ms-flex-align: center;
   align-items: center;
   border-radius: 2px;
+  background-color: #3f3f3f;
+  box-shadow: 0 0 6px 0 #3f3f3f;
   font-size: 1em;
 }
 
 .button.button-blue {
+  background-color: #0070ff;
   box-shadow: 0 0 6px 0 rgba(0, 112, 255, .8);
   text-shadow: 0 1px 0 hsla(0, 0%, 100%, .77);
 }
@@ -264,6 +265,54 @@
 .button.button-dark {
   background-color: #0a151f;
   box-shadow: 0 0 6px 0 #0a151f;
+}
+
+.bg-color-light {
+  color: #fafafa;
+}
+
+.bg-color-mid-light {
+  background-color: #cecece;
+}
+
+.bg-color-mid-grey {
+  background-color: #969696;
+}
+
+.bg-color-grey {
+  background-color: #3f3f3f;
+}
+
+.color-blue {
+  color: #0070ff;
+}
+
+.color-mid-grey {
+  color: #969696;
+}
+
+.color-mid-light {
+  color: #cecece;
+}
+
+.color-grey {
+  color: #3f3f3f;
+}
+
+.color-orange {
+  color: #faa004;
+}
+
+.color-green {
+  color: #4bd147;
+}
+
+.color-dark {
+  color: #0a151f;
+}
+
+.basic-text {
+  opacity: 0.6;
 }
 
 @media (max-width: 991px) {
