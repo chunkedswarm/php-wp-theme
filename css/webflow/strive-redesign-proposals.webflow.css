@@ -13,16 +13,9 @@ h2 {
 }
 
 .section {
-  display: -webkit-box !important;
-  display: -webkit-flex !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
+  display: block !important;
   padding-top: 4em !important;
   padding-bottom: 4em !important;
-  -webkit-box-pack: center !important;
-  -webkit-justify-content: center !important;
-  -ms-flex-pack: center !important;
-  justify-content: center !important;
 }
 
 .section.section-dark {
