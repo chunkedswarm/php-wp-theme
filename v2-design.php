@@ -43,8 +43,8 @@ $template_root = get_template_directory_uri();
 
     <!-- Load jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
-    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.min.css">
     <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 
     <!-- Start of HubSpot Embed Code -->
@@ -62,6 +62,6 @@ $template_root = get_template_directory_uri();
 
 <?php wp_footer(); ?>
 <script src="<?php echo $template_root; ?>/js/webflow.js" type="text/javascript"></script>
-<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
 </body>
 </html>
